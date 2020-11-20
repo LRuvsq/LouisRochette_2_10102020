@@ -1,4 +1,35 @@
+/* HEADER----------------------------------------------*/
+
+header div {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+
+/* BODY----------------------------------------------*/
+
 body {
     background-color: blanc;
     font-family: "fonts/Raleway", sans-serif;
+}
+
+#bloc_01 {
+    margin-top: 35px;
 }
