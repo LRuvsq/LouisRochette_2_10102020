@@ -15,7 +15,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     margin-right: 35px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 nav li {
@@ -27,9 +27,42 @@ nav li {
 
 body {
     background-color: blanc;
-    font-family: "fonts/Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 #bloc_01 {
     margin-top: 35px;
+    margin-left: 35px;
+}
+
+#bloc_01>strong {
+    font-weight: bold;
+}
+
+
+/* FOOTER----------------------------------------------*/
+
+footer {
+    display: flex;
+    line-height: 30px;
+    background-color: #f2f2f2;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer div {
+    margin-left: 35px;
+}
+
+footer strong {
+    font-weight: bold;
+}
+
+#heber {
+    margin-left: 15%;
+}
+
+#assis {
+    margin-left: 15%;
 }
