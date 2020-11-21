@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="reservia.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/210e51e889.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 
@@ -28,8 +29,16 @@
 
     <main>
         <section id="bloc_01">
-            <strong>Trouvez votre hébergement pour des vacances de rêve </strong>
-            <p>En plein centre ville ou en pleine nature</p>
+            <p>
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2> <br/> En plein centre ville ou en pleine nature</p>
+
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <form method="post" action="traitement.php">
+                    <p> <input type="text" name="pseudo" id="pseudo" /> </p>
+                </form>
+                <input type="submit" value="Rechercher" />
+            </div>
         </section>
 
         <section id="bloc_02">
