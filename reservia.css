@@ -1,21 +1,26 @@
+body {
+    background-color: blanc;
+    font-family: "Raleway", sans-serif;
+    height: 1953px;
+    weight: 1436px;
+}
+
+
 /* HEADER----------------------------------------------*/
 
-header div {
-    margin-left: 35px;
-    margin-top: 30px;
-}
+header div {}
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 53px;
+    margin-top: 60px;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    margin-right: 35px;
-    margin-top: 40px;
 }
 
 nav li {
@@ -25,47 +30,230 @@ nav li {
 
 /* MAIN----------------------------------------------*/
 
-body {
-    background-color: blanc;
-    font-family: "Raleway", sans-serif;
-    height: 1908px;
-    weight: 1431px;
+main {
+    margin-top: 51px;
+    margin-left: 53px;
 }
 
 #bloc_01 {
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
-    margin-left: 35px;
 }
 
-#bloc_01>i {
-    margin-left: 10px;
+
+/*-----------TITRE-----------------------------------*/
+
+#titre {
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
 }
 
-#bloc_01>div {
+#titre>h2 {
+    font-weight: bold;
+}
+
+#titre>div {
+    font-size: 18px;
+}
+
+
+/*-----------FORMULAIRE-------------------------------*/
+
+#formulaire {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-top: 15px;
+    width: 414px;
+    align-items: center;
+    border: 1px #f2f2f2 solid;
+    border-radius: 10px;
 }
 
-#bloc_01>div>form {
-    margin-left: 20px;
-    margin-bottom: 80px;
+#logo_position {
+    width: 49px;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-#bloc_01>div>i {
-    margin-top: 20px;
-    margin-left: 9px;
+#logo_position>i {
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
-#bloc_01>div>input {
-    width: 120px;
-    height: 30px;
-    margin-top: 16px;
-    font-family: "Raleway", sans-serif;
+form {
+    width: 231px;
+    height: 45px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+form>input {
+    margin-top: 15px;
+    padding-left: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#bouton_recherche {
+    width: 134px;
+    height: 49px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #0065fc;
-    color: #ffffff;
+}
+
+#bouton_recherche>input {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    text-emphasis: bold;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #0065fc;
+    color: white;
+}
+
+#filtres {
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#economique {
+    display: flex;
+    flex-direction: row;
+    border: 3px #f2f2f2 solid;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    /* pour que le titre economique */
+    /* soit au centre */
+}
+
+#petit_econo {
+    width: 50px;
+    border-radius: 40px;
+    background-color: #deebff;
+}
+
+#petit_econo>i {
+    color: #0065fc;
+    margin-left: 13px;
+    margin-top: 19px;
+}
+
+#economique>p {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#familial {
+    display: flex;
+    flex-direction: row;
+    border: 3px #f2f2f2 solid;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#petit_familial {
+    width: 50px;
+    border-radius: 40px;
+    background-color: #deebff;
+}
+
+#petit_familial>i {
+    color: #0065fc;
+    margin-left: 17px;
+    margin-top: 19px;
+}
+
+#familial>p {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#romantique {
+    display: flex;
+    flex-direction: row;
+    border: 3px #f2f2f2 solid;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#petit_romantique {
+    width: 50px;
+    border-radius: 40px;
+    background-color: #deebff;
+}
+
+#petit_romantique>i {
+    color: #0065fc;
+    margin-left: 15px;
+    margin-top: 19px;
+}
+
+#romantique>p {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#animaux {
+    display: flex;
+    flex-direction: row;
+    border: 3px #f2f2f2 solid;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#petit_animaux {
+    width: 50px;
+    border-radius: 40px;
+    background-color: #deebff;
+}
+
+#petit_animaux>i {
+    color: #0065fc;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+#animaux>p {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#texte_info {
+    margin-left: 15px;
+}
+
+#icone_info {
+    margin-top: 12px;
+    border: 2px #deebff solid;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+#icone_info>i {
+    color: #0065fc;
+    margin-left: 12px;
+    margin-top: 5px;
 }
 
 
