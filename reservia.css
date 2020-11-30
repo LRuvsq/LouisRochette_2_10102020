@@ -1,8 +1,7 @@
 body {
-    background-color: blanc;
     font-family: "Raleway", sans-serif;
-    height: 1953px;
-    weight: 1436px;
+    width: 1200px;
+    margin: auto;
 }
 
 
@@ -14,8 +13,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 53px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -31,8 +29,7 @@ nav li {
 /* MAIN----------------------------------------------*/
 
 main {
-    margin-top: 51px;
-    margin-left: 53px;
+    margin-top: 30px;
 }
 
 #bloc_01 {
@@ -63,8 +60,8 @@ main {
 #formulaire {
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
-    width: 414px;
+    margin-top: 20px;
+    width: 36%;
     align-items: center;
     border: 1px #f2f2f2 solid;
     border-radius: 10px;
@@ -81,24 +78,22 @@ main {
 #logo_position>i {
     padding-left: 15px;
     padding-top: 15px;
+    margin-right: 20px;
 }
 
 form {
-    width: 231px;
-    height: 45px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
 form>input {
-    margin-top: 15px;
-    padding-left: 15px;
+    margin-top: 5px;
+    padding-left: 10px;
     font-size: medium;
     font-weight: bold;
 }
 
 #bouton_recherche {
-    width: 134px;
     height: 49px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -107,7 +102,8 @@ form>input {
 
 #bouton_recherche>input {
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: "Raleway", sans-serif;
     text-align: center;
     text-emphasis: bold;
@@ -120,121 +116,140 @@ form>input {
 #filtres {
     display: flex;
     flex-direction: row;
-    margin-top: 33px;
-    font-size: 17px;
+    font-size: 95%;
     font-weight: bold;
+    margin-top: 32px;
+}
+
+#filtres>div {}
+
+#titre_filtres>p {}
+
+#titre_filtres {
+    margin-right: 30px;
 }
 
 #economique {
     display: flex;
     flex-direction: row;
-    border: 3px #f2f2f2 solid;
+    margin-right: 20px;
+    height: 10%;
+    border: 2px #f2f2f2 solid;
     border-radius: 40px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    /* pour que le titre economique */
-    /* soit au centre */
+    border-left-color: #deebff;
 }
 
-#petit_econo {
-    width: 50px;
-    border-radius: 40px;
+#logo_economique {
+    width: 30%;
     background-color: #deebff;
+    border-radius: 40px;
 }
 
-#petit_econo>i {
+#logo_economique>i {
     color: #0065fc;
-    margin-left: 13px;
-    margin-top: 19px;
+    padding-left: 13px;
+    padding-right: 20px;
+    padding-top: 17px;
 }
 
-#economique>p {
+#titre_economique {
     padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 #familial {
     display: flex;
     flex-direction: row;
-    border: 3px #f2f2f2 solid;
+    margin-right: 20px;
+    height: 10%;
+    border: 2px #f2f2f2 solid;
     border-radius: 40px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    border-left-color: #deebff;
 }
 
-#petit_familial {
-    width: 50px;
-    border-radius: 40px;
+#logo_familial {
+    width: 40%;
     background-color: #deebff;
+    border-radius: 40px;
 }
 
-#petit_familial>i {
+#logo_familial>i {
     color: #0065fc;
-    margin-left: 17px;
-    margin-top: 19px;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-top: 17px;
 }
 
-#familial>p {
-    padding-left: 10px;
-    padding-right: 15px;
+#titre_familial {
+    width: 100%;
+}
+
+#titre_familial>p {
+    padding-left: 8px;
+    padding-right: 13px;
 }
 
 #romantique {
     display: flex;
     flex-direction: row;
-    border: 3px #f2f2f2 solid;
+    margin-right: 20px;
+    height: 10%;
+    border: 2px #f2f2f2 solid;
     border-radius: 40px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    border-left-color: #deebff;
 }
 
-#petit_romantique {
-    width: 50px;
-    border-radius: 40px;
+#logo_romantique {
+    width: 30%;
     background-color: #deebff;
+    border-radius: 40px;
 }
 
-#petit_romantique>i {
+#logo_romantique>i {
     color: #0065fc;
-    margin-left: 15px;
-    margin-top: 19px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 17px;
 }
 
-#romantique>p {
+#titre_romantique {
     padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 #animaux {
     display: flex;
     flex-direction: row;
-    border: 3px #f2f2f2 solid;
+    margin-right: 20px;
+    height: 10%;
+    border: 2px #f2f2f2 solid;
     border-radius: 40px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    border-left-color: #deebff;
 }
 
-#petit_animaux {
-    width: 50px;
-    border-radius: 40px;
+#logo_animaux {
+    width: 23%;
     background-color: #deebff;
+    border-radius: 40px;
 }
 
-#petit_animaux>i {
+#logo_animaux>i {
     color: #0065fc;
-    margin-left: 15px;
-    margin-top: 16px;
+    padding-left: 14px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
-#animaux>p {
+#titre_animaux {
     padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 10px;
+    width: 100%;
 }
 
 #info {
     display: flex;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 15px;
 }
 
@@ -243,7 +258,7 @@ form>input {
 }
 
 #icone_info {
-    margin-top: 12px;
+    margin-top: 6px;
     border: 2px #deebff solid;
     border-radius: 20px;
     height: 30px;
