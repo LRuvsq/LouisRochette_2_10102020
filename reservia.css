@@ -1,6 +1,6 @@
 body {
     font-family: "Raleway", sans-serif;
-    width: 1200px;
+    width: 1300px;
     margin: auto;
 }
 
@@ -61,7 +61,7 @@ main {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 36%;
+    width: 30%;
     align-items: center;
     border: 1px #f2f2f2 solid;
     border-radius: 10px;
@@ -246,10 +246,28 @@ form>input {
     width: 100%;
 }
 
+
+#economique:hover{
+    background-color: #deebff;
+}
+
+
+#familial:hover{
+    background-color:  #deebff;
+}
+
+#romantique:hover{
+    background-color:  #deebff;
+}
+
+#animaux:hover{
+    background-color:  #deebff;
+}
+
 #info {
     display: flex;
     flex-direction: row;
-    font-size: 14px;
+    font-size: 17px;
     margin-top: 15px;
 }
 
@@ -258,7 +276,7 @@ form>input {
 }
 
 #icone_info {
-    margin-top: 6px;
+    margin-top: 12px;
     border: 2px #deebff solid;
     border-radius: 20px;
     height: 30px;
@@ -266,9 +284,10 @@ form>input {
 }
 
 #icone_info>i {
+    font-size: 14px;
     color: #0065fc;
-    margin-left: 12px;
-    margin-top: 5px;
+    margin-left: 13px;
+    margin-top: 6px;
 }
 
 
