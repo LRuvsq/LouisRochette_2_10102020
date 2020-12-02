@@ -1,195 +1,184 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reservia.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script src="https://kit.fontawesome.com/210e51e889.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/210e51e889.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Reservia</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div>
-            <img src="images/logo/Reservia_logo.png" alt="Logo de Reservia" />
-        </div>
+      <div>
+        <img src="images/logo/Reservia_logo.png" alt="Logo de Reservia" />
+      </div>
 
-        <nav>
-            <ul>
-                <li>Hébergements</li>
-                <li>Activités</li>
-                <li>S'inscrire</li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>Hébergements</li>
+          <li>Activités</li>
+          <li>S'inscrire</li>
+        </ul>
+      </nav>
     </header>
 
     <!------------------------------------------------------------------------->
 
     <main>
-        <section id="bloc_01">
-            <div id="titre">
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                <br />
-                <div>En plein centre ville ou en pleine nature</div>
+      <section id="bloc_01">
+        <div id="titre">
+          <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+          <br />
+          <div>En plein centre ville ou en pleine nature</div>
+        </div>
+
+        <div id="formulaire">
+          <div id="logo_position">
+            <i class="fas fa-map-marker-alt fa-lg"> </i>
+          </div>
+
+          <form method="post" action="traitement.php">
+            <input
+              input
+              style="border: 0px"
+              type="search"
+              name="pseudo"
+              id="pseudo"
+              style="height: 49px"
+            />
+          </form>
+
+          <div id="bouton_recherche">
+            <input input style="border: 0px" type="button" value="Rechercher" />
+          </div>
+        </div>
+
+        <div id="filtres">
+          <div id="titre_filtres">
+            <p>Filtres</p>
+          </div>
+
+          <div id="economique">
+            <div id="logo_economique">
+              <i class="fas fa-money-bill-wave"> </i>
             </div>
-
-            <div id="formulaire">
-                <div id="logo_position">
-                    <i class="fas fa-map-marker-alt fa-lg"> </i>
-                </div>
-
-                <form method="post" action="traitement.php">
-                    <input input style="border: 0px" type="search" name="pseudo" id="pseudo" style="height: 49px" />
-                </form>
-
-                <div id="bouton_recherche">
-                    <input input style="border: 0px" type="button" value="Rechercher" />
-                </div>
+            <div id="titre_economique">
+              <p>Économique</p>
             </div>
+          </div>
 
-            <div id="filtres">
-                <div id="titre_filtres">
-                    <p>Filtres</p>
-                </div>
-
-                <div id="economique">
-                    <div id="logo_economique">
-                        <i class="fas fa-money-bill-wave"> </i>
-                    </div>
-                    <div id="titre_economique">
-                        <p>Économique</p>
-                    </div>
-                </div>
-
-                <div id="familial">
-                    <div id="logo_familial">
-                        <i class="fas fa-child"></i>
-                    </div>
-                    <div id="titre_familial">
-                        <p>Familial</p>
-                    </div>
-                </div>
-
-                <div id="romantique">
-                    <div id="logo_romantique">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div id="titre_romantique">
-                        <p>Romantique</p>
-                    </div>
-                </div>
-
-                <div id="animaux">
-                    <div id="logo_animaux">
-                        <i class="fas fa-dog"></i>
-                    </div>
-                    <div id="titre_animaux">
-                        <p>Animaux autorisés</p>
-                    </div>
-                </div>
+          <div id="familial">
+            <div id="logo_familial">
+              <i class="fas fa-child"></i>
             </div>
-
-            <div id="info">
-                <div id="icone_info">
-                    <i class="fas fa-info"></i>
-                </div>
-                <div id="texte_info">
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
+            <div id="titre_familial">
+              <p>Familial</p>
             </div>
-        </section>
+          </div>
 
-        <section id="bloc_02 ">
-
-            <h1> </h1>
-
-            <div id="hotel_01">
-                <div id="photo_01">
-
-                </div>
-                <p>
-
-                </p>
+          <div id="romantique">
+            <div id="logo_romantique">
+              <i class="fas fa-heart"></i>
             </div>
-
-            <div id="hotel_02">
-                <div id="photo_02">
-
-                </div>
-                <p>
-
-                </p>
+            <div id="titre_romantique">
+              <p>Romantique</p>
             </div>
+          </div>
 
-
-            <div id="hotel_03">
-                <div id="photo_03">
-
-                </div>
-                <p>
-
-                </p>
+          <div id="animaux">
+            <div id="logo_animaux">
+              <i class="fas fa-dog"></i>
             </div>
-
-            <div id="hotel_04">
-                <div id="photo_04">
-
-                </div>
-                <p>
-
-                </p>
+            <div id="titre_animaux">
+              <p>Animaux autorisés</p>
             </div>
+          </div>
+        </div>
 
-            <div id="hotel_05">
-                <div id="photo_05">
+        <div id="info">
+          <div id="icone_info">
+            <i class="fas fa-info"></i>
+          </div>
+          <div id="texte_info">
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
+        </div>
+      </section>
 
-                </div>
-                <p>
+      <section id="bloc_02">
+        <h1>Hébergements à Marseille</h1>
 
-                </p>
-            </div>
+        <div id="hotel_01">
+          <img src="images/hebergements/4_small/cannebiereV.jpg" alt="hotel" />
+          <p></p>
+        </div>
 
-            <div id="hotel_06">
-                <div id="photo_06">
+        <div id="hotel_02">
+          <div id="photo_02"></div>
+          <p></p>
+        </div>
 
-                </div>
-                <p>
+        <div id="hotel_03">
+          <div id="photo_03"></div>
+          <p></p>
+        </div>
 
-                </p>
-            </div>
+        <div id="hotel_04">
+          <div id="photo_04"></div>
+          <p></p>
+        </div>
 
-            <aside></aside>
-        </section>
+        <div id="hotel_05">
+          <div id="photo_05"></div>
+          <p></p>
+        </div>
 
-        <section id="bloc_03 "></section>
+        <div id="hotel_06">
+          <div id="photo_06"></div>
+          <p></p>
+        </div>
+
+        <aside></aside>
+      </section>
+
+      <section id="bloc_03 "></section>
     </main>
 
     <!------------------------------------------------------------------------->
 
     <footer>
-        <div>
-            <strong> A propos </strong>
-            <p>
-                Fonctionnement du site <br /> Conditions générales de vente <br /> Donées et confidentialité
-            </p>
-        </div>
+      <div>
+        <strong> A propos </strong>
+        <p>
+          Fonctionnement du site <br />
+          Conditions générales de vente <br />
+          Donées et confidentialité
+        </p>
+      </div>
 
-        <div id="heber ">
-            <strong> Nos hébergements </strong>
-            <p>
-                Charte qualité <br /> Soumettre votre hôtel
-            </p>
-        </div>
+      <div id="heber ">
+        <strong> Nos hébergements </strong>
+        <p>
+          Charte qualité <br />
+          Soumettre votre hôtel
+        </p>
+      </div>
 
-        <div id="assis ">
-            <strong> Assistance </strong>
-            <p>
-                Centre d'aide <br /> Nous contacter
-            </p>
-        </div>
+      <div id="assis ">
+        <strong> Assistance </strong>
+        <p>
+          Centre d'aide <br />
+          Nous contacter
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

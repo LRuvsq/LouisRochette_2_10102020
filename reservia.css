@@ -269,6 +269,7 @@ form>input {
     flex-direction: row;
     font-size: 17px;
     margin-top: 15px;
+    font-weight: unset;
 }
 
 #texte_info {
@@ -276,19 +277,43 @@ form>input {
 }
 
 #icone_info {
-    margin-top: 12px;
+    margin-top: 14px;
     border: 2px #deebff solid;
     border-radius: 20px;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 
 #icone_info>i {
     font-size: 14px;
     color: #0065fc;
-    margin-left: 13px;
-    margin-top: 6px;
+    margin-left: 10px;
+    margin-top: 5px;
 }
+
+#bloc_02{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 40px;
+}
+
+#bloc_02>h1{
+    background-color: #f2f2f2;
+}
+
+#hotel_01{
+    background-color: white;
+    display: flex;
+    width: fit-content;
+}
+
+#photo_01>img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
 
 
 /* FOOTER----------------------------------------------*/
