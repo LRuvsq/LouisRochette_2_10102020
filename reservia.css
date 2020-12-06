@@ -301,7 +301,7 @@ form > input {
   padding-left: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
 #premiere_ligne {
@@ -311,11 +311,20 @@ form > input {
   padding-right: 30px;
 }
 
-#bloc_02 > h1 {
+#deuxieme_ligne {
+  margin-top: 10px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#partie_gauche > h1 {
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   justify-content: start;
+  font-size: 20px;
 }
 
 #hotel_01 {
@@ -328,28 +337,31 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 30%;
+  width: 29%;
+  height: 90%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
 }
 
-#hotel_01 > img {
+#image_hotel01 > img {
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 3px;
+  padding-left: 2px;
+  padding-top: 4px;
+  margin-left: 3px;
 }
 
-#hotel_01 > p {
-  line-height: 25px;
-  margin-left: 20px;
+#texte_hotel01 > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
 }
 
 #evaluation_1 {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -367,28 +379,30 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 30%;
+  width: 29%;
+  height: 90%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
 }
 
-#hotel_02 > img {
+#image_hotel02 > img {
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-left: 4px;
-  padding-right: 4px;
   padding-top: 3px;
 }
 
-#hotel_02 > p {
-  line-height: 25px;
-  margin-left: 20px;
+#texte_hotel02 > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
 }
 
 #evaluation_2 {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -406,41 +420,38 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 30%;
+  width: 29%;
+  height: 90%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
 }
 
-#hotel_03 > img {
+#image_hotel03 > img {
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-left: 4px;
-  padding-right: 4px;
   padding-top: 3px;
 }
 
-#hotel_03 > p {
-  line-height: 25px;
-  margin-left: 20px;
+#texte_hotel03 {
+}
+
+#texte_hotel03 > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
 }
 
 #evaluation_3 {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
 #evaluation_3 > span {
   color: #f2f2f2;
-}
-
-#deuxieme_ligne {
-  margin-top: 40px;
-  padding-right: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 #hotel_04 {
@@ -453,28 +464,33 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 30%;
+  width: 29%;
+  height: 90%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
 }
 
-#hotel_04 > img {
+#image_hotel04 > img {
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-left: 4px;
-  padding-right: 4px;
   padding-top: 3px;
 }
 
-#hotel_04 > p {
-  line-height: 25px;
-  margin-left: 20px;
+#texte_hotel04 {
+}
+
+#texte_hotel04 > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
 }
 
 #evaluation_4 {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -492,28 +508,33 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 30%;
+  width: 29%;
+  height: 90%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
 }
 
-#hotel_05 > img {
+#image_hotel05 > img {
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-left: 4px;
-  padding-right: 4px;
   padding-top: 3px;
 }
 
-#hotel_05 > p {
-  line-height: 25px;
-  margin-left: 20px;
+#texte_hotel05 {
+}
+
+#texte_hotel05 > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
 }
 
 #evaluation_5 {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -531,28 +552,33 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 30%;
+  width: 29%;
+  height: 90%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
 }
 
-#hotel_06 > img {
+#image_hotel06 > img {
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-left: 4px;
-  padding-right: 4px;
   padding-top: 3px;
 }
 
-#hotel_06 > p {
-  line-height: 25px;
-  margin-left: 20px;
+#texte_hotel06 {
+}
+
+#texte_hotel06 > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
 }
 
 #evaluation_6 {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -560,13 +586,13 @@ form > input {
   color: #f2f2f2;
 }
 
-#bloc_02 > p {
-  padding-top: 50px;
+#text_afficherplus {
+  padding-top: 30px;
   padding-bottom: 30px;
   font-weight: bold;
 }
 
-#partie_gauche {
+#partie_droite {
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -574,13 +600,23 @@ form > input {
   padding-left: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 40px;
+  border-radius: 20px;
   margin-left: 30px;
 }
 
 #titre_aside {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+}
+
+#titre_aside > i {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+#titre_aside > p {
 }
 
 #hotel_07 {
@@ -593,6 +629,7 @@ form > input {
   border-bottom-right-radius: 20px;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
   margin-right: 27px;
+  margin-top: 10px;
 }
 
 #photo_07 > img {
@@ -617,6 +654,116 @@ form > input {
   padding-left: 20px;
   padding-right: 20px;
   text-align: start;
+}
+
+#evaluation_7 > span {
+  color: #f2f2f2;
+}
+
+#evaluation_7 {
+  display: inline-block;
+  font-size: 11px;
+  color: #0065fc;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#hotel_08 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 1px 1px 60px rgb(185, 181, 181);
+  margin-right: 27px;
+  margin-top: 30px;
+}
+
+#photo_08 > img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+}
+
+#text_08 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text_08 > p {
+  font-size: 80%;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: start;
+}
+
+#evaluation_8 > span {
+  color: #f2f2f2;
+}
+
+#evaluation_8 {
+  display: inline-block;
+  font-size: 11px;
+  color: #0065fc;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#hotel_09 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 1px 1px 60px rgb(185, 181, 181);
+  margin-right: 27px;
+  margin-top: 30px;
+}
+
+#photo_09 > img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+}
+
+#text_09 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text_09 > p {
+  font-size: 80%;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: start;
+}
+
+#evaluation_9 > span {
+  color: #f2f2f2;
+}
+
+#evaluation_9 {
+  display: inline-block;
+  font-size: 11px;
+  color: #0065fc;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 /* FOOTER----------------------------------------------*/
