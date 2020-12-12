@@ -1,0 +1,123 @@
+main {
+  width: auto;
+}
+
+header {
+  flex-direction: column;
+}
+
+#logo_reservia > img {
+  margin-left: 20px;
+}
+
+#logo_reservia {
+  width: 15%;
+}
+
+nav {
+  width: auto;
+  display: row;
+  width: 100%;
+}
+
+nav div {
+  padding-left: 4px;
+  margin: 0;
+}
+
+#hebergements {
+  border: none;
+  margin: 0;
+  width: auto;
+}
+
+#hebergements > p {
+  margin-top: 15px;
+}
+
+#activite {
+  margin: 0;
+  width: auto;
+}
+
+#inscrire {
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#inscrire > span {
+  margin-bottom: 30px;
+}
+
+#titre {
+  padding-left: 20px;
+  padding-right: 40px;
+  line-height: 3px;
+}
+
+#titre > span {
+  line-height: 25px;
+}
+
+#formulaire {
+  margin-top: 40px;
+  margin-left: 20px;
+  justify-content: start;
+  border: 1px #f2f2f2 solid;
+  width: 86%;
+  border-radius: 15px;
+}
+
+form > input {
+  width: 97%;
+}
+
+#logo_position {
+  width: 49px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#barre_recherche {
+  border: none;
+  width: 70%;
+}
+
+form {
+}
+
+#bouton_recherche {
+  position: relative;
+  align-content: flex-end;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 49px;
+}
+
+#bouton_recherche::after {
+  position: absolute;
+  font-family: "FontAwesome";
+  top: 0;
+  left: 10px;
+  content: "\f002";
+  color: white;
+  padding-top: 15px;
+  padding-left: 7px;
+}
+
+/*#bouton_recherche > input {
+  margin: 0;
+  font-family: none;
+  text-align: unset;
+  text-emphasis: unset;
+  font-size: unset;
+  font-weight: unset; */
+
+#bouton_recherche > input {
+  background-color: tomato;
+  margin: 0;
+  visibility: hidden;
+}

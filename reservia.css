@@ -39,7 +39,6 @@ nav span {
 
 #hebergements {
   border-top: 2px #0065fc solid;
-
   margin-right: 30px;
   margin-bottom: 30px;
   width: 90%;
@@ -338,7 +337,7 @@ form > input {
 }
 
 #premiere_ligne {
-  padding-top: 10px;
+  padding-top: 18px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -766,7 +765,7 @@ form > input {
 #photo_09 > img {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-  padding-top: 4.2px;
+  padding-top: 4px;
   padding-left: 4.2px;
 }
 
@@ -974,7 +973,7 @@ form > input {
 footer {
   background-color: #f2f2f2;
   width: 100%;
-  margin: 0;
+  margin-top: 30px;
 }
 
 #fond_footer {
