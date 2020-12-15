@@ -1,9 +1,13 @@
 main {
-  width: auto;
+  width: 375px;
 }
 
 header {
   flex-direction: column;
+}
+
+#titre > span {
+  font-size: 17px;
 }
 
 #logo_reservia > img {
@@ -84,9 +88,6 @@ form > input {
   width: 70%;
 }
 
-form {
-}
-
 #bouton_recherche {
   position: relative;
   align-content: flex-end;
@@ -108,16 +109,248 @@ form {
   padding-left: 7px;
 }
 
-/*#bouton_recherche > input {
-  margin: 0;
-  font-family: none;
-  text-align: unset;
-  text-emphasis: unset;
-  font-size: unset;
-  font-weight: unset; */
-
 #bouton_recherche > input {
   background-color: tomato;
   margin: 0;
   visibility: hidden;
+}
+
+#filtres {
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+#filtres > div:not(#titre_filtres) {
+  margin-bottom: 16px;
+}
+
+#titre_filtres {
+  width: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#info {
+  margin-top: 5px;
+}
+
+#texte_info {
+  margin-left: 12px;
+}
+
+#texte_info > p {
+  font-size: 16px;
+}
+
+#icone_info > i {
+  margin: auto;
+  padding-left: 11px;
+  padding-top: 6px;
+}
+
+#icone_info {
+  width: 9%;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+#bloc_02 {
+  flex-direction: column-reverse;
+}
+
+#partie_droite {
+  margin-left: 0;
+  border-radius: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#partie_droite > div:not(#hotel_07) {
+  margin-top: 15px;
+}
+
+#titre_aside {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#hotel_07 {
+  margin: auto;
+}
+
+#hotel_08 {
+  margin: auto;
+}
+
+#hotel_09 {
+  margin: auto;
+}
+
+#partie_gauche {
+  margin-top: 5px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0;
+  padding: 0;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#partie_gauche > h1 {
+  background-color: white;
+}
+
+#premiere_ligne {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hotel_01 {
+  width: 333px;
+}
+
+#hotel_01 > img {
+  width: 325px;
+  height: 113px;
+}
+
+#hotel_02 {
+  width: 333px;
+}
+
+#hotel_02 > img {
+  width: 325px;
+  height: 113px;
+}
+
+#hotel_03 {
+  width: 333px;
+}
+
+#hotel_03 > img {
+  width: 325px;
+  height: 113px;
+}
+
+#premiere_ligne > div:not(#hotel_01) {
+  margin-top: 15px;
+}
+
+#deuxieme_ligne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-bottom: 18px;
+}
+
+#deuxieme_ligne > div:not(#hotel_04) {
+  margin-top: 15px;
+}
+
+#hotel_04 {
+  width: 333px;
+}
+
+#hotel_04 > img {
+  width: 325px;
+  height: 113px;
+}
+
+#hotel_05 {
+  width: 333px;
+}
+
+#hotel_05 > img {
+  width: 325px;
+  height: 113px;
+}
+
+#hotel_06 {
+  width: 333px;
+}
+
+#hotel_06 > img {
+  width: 325px;
+  height: 113px;
+}
+
+#titre_bloc_03 h1 {
+  margin-left: 20px;
+}
+
+#section1 {
+  margin-left: 20px;
+}
+
+#activites {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#section1_element1 {
+  width: 334px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+#section1_element1 > img {
+  height: 134px;
+}
+
+#section2_element1 {
+  width: 334px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+#section2_element1 > img {
+  height: 134px;
+}
+
+#section2_element2 {
+  width: 334px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+#section2_element2 > img {
+  height: 134px;
+}
+
+#section3_element1 {
+  width: 334px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+#section3_element1 > img {
+  height: 134px;
+}
+
+#section4_element1 {
+  width: 334px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+#section4_element1 > img {
+  height: 134px;
+}
+
+#section4_element2 {
+  width: 334px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+#section4_element2 > img {
+  height: 134px;
 }
