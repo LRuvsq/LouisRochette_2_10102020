@@ -1,4 +1,4 @@
-<!DOCTYPE html> nouv 
+<!DOCTYPE html> 
 <html>
   <head>
     <meta charset="utf-8" />
@@ -6,6 +6,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="reservia.css" />
     <link rel="stylesheet" media="screen and (max-width: 1249px)" href="reservia_mobile.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -24,11 +25,11 @@
 
       <nav>
           <div id="hebergements">
-            <p>Hébergements</p> 
-          </div> 
+            <span> <a href="#partie_gauche"> <p> Hébergements </p> </a> </span>
+          </div>
 
           <div id="activite">
-            <p>Activités</p>
+            <a href="#titre_bloc_03"> <p> Activités </p> </a>
           </div>
 
           <div id="inscrire">
@@ -44,9 +45,8 @@
       <section id="bloc_01">
           
           <div id="titre">
-            <span> <h3>Trouvez votre hébergement pour des vacances de rêve</h3> </span>
-            <br />
-            <div>En plein centre ville ou en pleine nature</div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1> 
+            <p>En plein centre ville ou en pleine nature</p>
           </div>
 
           <div id="formulaire">
@@ -75,42 +75,47 @@
           </div>
 
           <div id="filtres">
+
             <div id="titre_filtres">
               <p>Filtres</p>
             </div>
 
-            <div id="economique">
-              <div id="logo_economique">
+            <div class="element_filtre">
+              <div class="logo_element logo_element_eco">
                 <i class="fas fa-money-bill-wave"> </i>
               </div>
-              <div id="titre_economique">
+
+              <div class="titre_element">
                 <p>Économique</p>
               </div>
             </div>
-
-            <div id="familial">
-              <div id="logo_familial">
-                <i class="fas fa-child"></i>
+            
+            <div class="element_filtre">
+              <div class="logo_element logo_element_fam">
+                <i class="fas fa-child"> </i>
               </div>
-              <div id="titre_familial">
+              
+              <div class="titre_element">
                 <p>Familial</p>
               </div>
             </div>
 
-            <div id="romantique">
-              <div id="logo_romantique">
+            <div class="element_filtre">
+              <div class="logo_element logo_element_rom">
                 <i class="fas fa-heart"></i>
               </div>
-              <div id="titre_romantique">
+
+              <div class="titre_element">
                 <p>Romantique</p>
               </div>
             </div>
 
-            <div id="animaux">
-              <div id="logo_animaux">
+            <div class="element_filtre">
+              <div class="logo_element">
                 <i class="fas fa-dog"></i>
               </div>
-              <div id="titre_animaux">
+
+              <div class="titre_element">
                 <p>Animaux autorisés</p>
               </div>
             </div>
@@ -128,21 +133,21 @@
 
         <section id="bloc_02">
 
-          <div id="partie_gauche">
-            <h1>Hébergements à Marseille</h1>
+          <a id="partie_gauche">
 
-            <div id="premiere_ligne">
+            <h1> Hébergements à Marseille </h1>
+           <div id="premiere_ligne"> 
 
-              <div id="hotel_01">
-               
+              <div id="hotel">
+                
                 <img src="images/hebergements/4_small/cannebiereV.jpg" alt="hotel" />
                 
-                <div id="texte_hotel01"> 
+                <div id="texte_hotel"> 
                   <p> <strong> Auberge la Cannebière </strong>   </p>
                   <p> Nuit à partir de <strong> 25 €  </strong> </p>
                 </div>
 
-                <div id="evaluation_1">
+                <div id="evaluation">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -151,16 +156,16 @@
                 </div>
               </div>
                
-              <div id="hotel_02">
+              <div id="hotel">
                
                 <img src="images/hebergements/4_small/portS.jpg" alt="hotel" />
                 
-                <div id="texte_hotel02"> 
+                <div id="texte_hotel"> 
                   <p> <strong> Hôtel du port </strong>   </p>
                   <p> Nuit à partir de <strong> 52 €  </strong> </p>
                 </div>
 
-                <div id="evaluation_2">
+                <div id="evaluation">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -169,16 +174,16 @@
                 </div>
               </div>
 
-              <div id="hotel_03">
+              <div id="hotel">
                
                 <img src="images/hebergements/4_small/mouettesS.jpg" alt="hotel" />
                 
-                <div id="texte_hotel03"> 
+                <div id="texte_hotel"> 
                   <p> <strong> Hôtel les mouettes </strong>   </p>
                   <p> Nuit à partir de <strong> 76 €  </strong> </p>
                 </div>
 
-                <div id="evaluation_3">
+                <div id="evaluation">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -191,16 +196,16 @@
 
             <div id="deuxieme_ligne">
 
-              <div id="hotel_04">
+              <div id="hotel">
                
                 <img src="images/hebergements/4_small/merS1.png" alt="hotel" />
                 
-                <div id="texte_hotel04"> 
+                <div id="texte_hotel"> 
                   <p> <strong> Hôtel de la mer </strong>   </p>
                   <p> Nuit à partir de <strong> 46 €  </strong> </p>
                 </div>
 
-                <div id="evaluation_4">
+                <div id="evaluation">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -209,16 +214,16 @@
                 </div>
               </div>
             
-              <div id="hotel_05">
+              <div id="hotel">
                
                 <img src="images/hebergements/4_small/panierS1.png" alt="hotel" />
                 
-                <div id="texte_hotel05"> 
+                <div id="texte_hotel"> 
                   <p> <strong> Auberge Le Panier </strong>   </p>
                   <p> Nuit à partir de <strong> 23 €  </strong> </p>
                 </div>
 
-                <div id="evaluation_5">
+                <div id="evaluation">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -227,16 +232,16 @@
                 </div>
               </div>
 
-              <div id="hotel_06">
+              <div id="hotel">
                
                 <img src="images/hebergements/4_small/aminaW.jpg" alt="hotel" />
                 
-                <div id="texte_hotel06"> 
+                <div id="texte_hotel"> 
                   <p> <strong> Hôtel chez Amina </strong>   </p>
                   <p> <span> Nuit à partir de <strong> 96 €  </strong> </span> </p>
                 </div>
 
-                <div id="evaluation_6">
+                <div id="evaluation">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -251,7 +256,7 @@
               <p> Afficher plus</p>
             </div>
 
-          </div>
+          </a>
 
           <aside id="partie_droite">
 
@@ -260,15 +265,18 @@
               <i class="fas fa-chart-line"></i>
             </div>
           
-            <div id="hotel_07">
+            <div class="hotel_aside">
 
-              <div id="photo_07">
+              <div class="droite_aside">
                  <img src="images/hebergements/4_small/soleilmatinS1.jpg" alt="hotel" />
               </div>
 
-              <div id="text_07">
-                <p> <strong> Hôtel Le soleil du </br> matin </strong> </br> Nuit à partir de <strong> 128 € </strong>  </p>
-                <div id="evaluation_7">
+              <div class="gauche_aside">
+                <div class="text_aside">
+                  <p> <span> Hôtel Le soleil du </br> matin </br> </span> </p> 
+                  <p> Nuit à partir de <strong> 128 € </strong> </p>
+                </div>
+                <div class="evaluation_aside">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -278,15 +286,20 @@
               </div> 
             </div>
 
-            <div id="hotel_08">
+            <div class="hotel_aside">
 
-              <div id="photo_08">
+              <div class="droite_aside">
                  <img src="images/hebergements/4_small/coeur_eauS1.png" alt="hotel" />
               </div>
 
-              <div id="text_08">
-                <p> <strong> Au coeur de l'eau </br> Chambres d'hôtes </strong> </br> Nuit à partir de <strong> 71 € </strong>  </p>
-                <div id="evaluation_8">
+              <div class="gauche_aside">
+
+                <div class="text_aside">
+                  <p> <span> Au coeur de l'eau </br> Chambres d'hôtes </br> </span> </p> 
+                  <p> Nuit à partir de <strong> 71 € </strong> </p>
+                </div> 
+                  
+                <div class="evaluation_aside">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -296,22 +309,27 @@
               </div> 
             </div>
 
-            <div id="hotel_09">
+            <div class="hotel_aside">
 
-              <div id="photo_09">
+              <div class="droite_aside">
                  <img src="images/hebergements/4_small/bleuS1.png" alt="hotel" />
               </div>
 
-              <div id="text_09">
-                <p> <strong> Hôtel Tout bleu et </br> blanc </strong> </br> Nuit à partir de <strong> 68 € </strong>  </p>
-                <div id="evaluation_9">
+              <div class="gauche_aside">
+
+                <div class="text_aside">
+                   <p> <span> Hôtel Tout bleu et </br> blanc </br> </span> </p> 
+                   <p> Nuit à partir de <strong> 68 € </strong> </p>
+                </div>
+
+                <div class="evaluation_aside">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <span> <i class="fas fa-star"></i> </span>
                 </div>
-              </div> 
+              </div>
             </div>
 
           </aside>
@@ -319,9 +337,9 @@
 
       <section id="bloc_03">
 
-        <div id="titre_bloc_03">
+        <a id="titre_bloc_03">
           <h1> Activités à Marseille </h1>
-        </div>
+        </a>
 
         <div id="activites">
 

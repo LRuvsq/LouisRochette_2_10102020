@@ -1,4 +1,4 @@
-body { nouv
+body {
   font-family: "Raleway", sans-serif;
   width: 100%;
   margin: auto;
@@ -12,47 +12,61 @@ header {
   justify-content: space-between;
   width: 1250px;
   margin: auto;
-}
-
-#logo_reservia {
-  margin-top: 30px;
-  font-size: 12px;
-}
-
-#activite {
-  margin-top: 30px;
-}
-
-#inscrire {
-  margin-top: 30px;
+  font-size: 13px;
 }
 
 nav {
   display: flex;
   list-style-type: none;
-  font-size: 15px;
+  flex-direction: row;
 }
 
 nav span {
   color: #0065fc;
 }
 
+#logo_reservia {
+  padding-top: 50px;
+}
+
+#inscrire {
+  padding-top: 50px;
+}
+
+#activite {
+  padding-top: 50px;
+  margin-right: 50px;
+}
+
 #hebergements {
   border-top: 2px #0065fc solid;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: 90%;
+  padding-left: 15px; /* pour augmenter la largeur de la */
+  padding-right: 15px; /* bande */
+  margin-right: 35px;
 }
 
-#hebergements > p {
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 44px;
+#hebergements * {
+  padding-top: 50px;
+}
+
+#hebergements a:link {
+  color: #0065fc; /* pour changer le style  */
+  text-decoration: none; /* des liens */
+}
+
+#hebergements a:visited {
   color: #0065fc;
+  text-decoration: none;
 }
 
-nav div {
-  margin-right: 40px;
+#activite a:link {
+  color: unset;
+  text-decoration: none;
+}
+
+#activite a:visited {
+  color: unset;
+  text-decoration: none;
 }
 
 /* MAIN----------------------------------------------*/
@@ -61,6 +75,7 @@ main {
   width: 1250px;
   margin: auto;
 }
+
 #bloc_01 {
   display: flex;
   flex-direction: column;
@@ -69,17 +84,15 @@ main {
 /*-----------TITRE-----------------------------------*/
 
 #titre {
-  display: flex;
-  flex-direction: column;
-  line-height: 15px;
+  line-height: 20px;
+  margin-top: 50px;
 }
 
-#titre > span {
-  font-weight: bold;
-  font-size: 17.5px;
+#titre > h1 {
+  font-size: 20.5px;
 }
 
-#titre > div {
+#titre > p {
   font-size: 15px;
 }
 
@@ -89,7 +102,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 10px;
 }
 
@@ -102,7 +115,7 @@ main {
 }
 
 #logo_position > i {
-  padding-left: 18px;
+  padding-left: 18px; /* pour centre le logo */
   padding-top: 17px;
   font-size: 18px;
 }
@@ -120,8 +133,8 @@ form {
 
 form > input {
   margin-top: 14px;
-  padding-left: 10px;
-  font-size: 16px;
+  padding-left: 10px; /* pour centre l'écriture du */
+  font-size: 16px; /* formulaire */
   font-weight: bold;
 }
 
@@ -138,157 +151,77 @@ form > input {
   margin-right: 10px;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  text-emphasis: bold;
   font-size: medium;
   font-weight: bold;
   background-color: #0065fc;
   color: white;
 }
 
+/*-----------FILTRES-------------------------------*/
+
 #filtres {
   display: flex;
   flex-direction: row;
-  font-size: 95%;
-  margin-top: 32px;
+  justify-content: start;
   font-weight: bold;
+  margin-top: 32px;
 }
 
-#titre_filtres {
+#filtres > div {
   margin-right: 30px;
 }
 
-#economique {
+.element_filtre {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
-  height: 10%;
+  justify-content: space-around;
   border: 2px #f2f2f2 solid;
-  border-radius: 40px;
   border-left-color: #deebff;
+  border-radius: 40px;
 }
 
-#logo_economique {
-  width: 30%;
+.logo_element {
   background-color: #deebff;
   border-radius: 40px;
 }
 
-#logo_economique > i {
+.logo_element > i {
   color: #0065fc;
-  padding-left: 13px;
-  padding-right: 20px;
-  padding-top: 17px;
-}
-
-#titre_economique {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#familial {
-  display: flex;
-  flex-direction: row;
-  margin-right: 20px;
-  height: 10%;
-  border: 2px #f2f2f2 solid;
-  border-radius: 40px;
-  border-left-color: #deebff;
-}
-
-#logo_familial {
-  width: 40%;
-  background-color: #deebff;
-  border-radius: 40px;
-}
-
-#logo_familial > i {
-  color: #0065fc;
-  padding-left: 18px;
-  padding-right: 20px;
-  padding-top: 17px;
-}
-
-#titre_familial {
-  width: 100%;
-}
-
-#titre_familial > p {
-  padding-left: 8px;
-  padding-right: 13px;
-}
-
-#romantique {
-  display: flex;
-  flex-direction: row;
-  margin-right: 20px;
-  height: 10%;
-  border: 2px #f2f2f2 solid;
-  border-radius: 40px;
-  border-left-color: #deebff;
-}
-
-#logo_romantique {
-  width: 30%;
-  background-color: #deebff;
-  border-radius: 40px;
-}
-
-#logo_romantique > i {
-  color: #0065fc;
-  padding-left: 15px;
-  padding-right: 20px;
-  padding-top: 17px;
-}
-
-#titre_romantique {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#animaux {
-  display: flex;
-  flex-direction: row;
-  margin-right: 20px;
-  height: 10%;
-  border: 2px #f2f2f2 solid;
-  border-radius: 40px;
-  border-left-color: #deebff;
-}
-
-#logo_animaux {
-  width: 23%;
-  background-color: #deebff;
-  border-radius: 40px;
-}
-
-#logo_animaux > i {
-  color: #0065fc;
-  padding-left: 14px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 15px;
 }
 
-#titre_animaux {
+.titre_element p {
   padding-left: 10px;
   padding-right: 10px;
-  width: 100%;
 }
 
-#economique:hover {
+.element_filtre:hover {
   background-color: #deebff;
 }
 
-#familial:hover {
-  background-color: #deebff;
+/* pour centrer les icones */
+
+.logo_element_rom > i {
+  padding-left: 16px;
+  padding-right: 18px;
+  padding-top: 17px;
 }
 
-#romantique:hover {
-  background-color: #deebff;
+.logo_element_fam > i {
+  padding-left: 18px;
+  padding-right: 19px;
+  padding-top: 17px;
 }
 
-#animaux:hover {
-  background-color: #deebff;
+.logo_element_eco > i {
+  padding-left: 14px;
+  padding-right: 18px;
+  padding-top: 17px;
 }
+
+/*-----------INFOS-------------------------------*/
 
 #info {
   display: flex;
@@ -320,6 +253,8 @@ form > input {
   margin-top: 6px;
 }
 
+/*-----------BLOC_2-------------------------------*/
+
 #bloc_02 {
   display: flex;
   flex-direction: row;
@@ -336,11 +271,10 @@ form > input {
 }
 
 #premiere_ligne {
-  padding-top: 18px;
-  padding-bottom: 18px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 #deuxieme_ligne {
@@ -350,12 +284,12 @@ form > input {
 }
 
 #partie_gauche > h1 {
-  background-color: #f2f2f2;
   font-size: 20px;
-  padding-top: 25px;
+  line-height: 7px;
+  padding-top: 35px;
 }
 
-#hotel_01 {
+#hotel {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -365,15 +299,13 @@ form > input {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 247px;
-  height: 200px;
+  height: 83%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
   margin-right: 20px;
 }
 
-#hotel_01 > img {
-  width: 240px;
-  height: 115px;
+#hotel > img {
+  height: 57%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-top: 3px;
@@ -381,13 +313,13 @@ form > input {
   padding-right: 3px;
 }
 
-#texte_hotel01 {
+#texte_hotel {
   font-size: 14px;
   padding-left: 20px;
   line-height: 7px;
 }
 
-#evaluation_1 {
+#evaluation {
   display: inline-block;
   font-size: 11px;
   color: #0065fc;
@@ -395,234 +327,16 @@ form > input {
   padding-bottom: 10px;
 }
 
-#evaluation_1 > span {
-  color: #f2f2f2;
-}
-
-#hotel_02 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 12px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  width: 247px;
-  height: 200px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 20px;
-}
-
-#hotel_02 > img {
-  width: 240px;
-  height: 115px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-#texte_hotel02 {
-  font-size: 14px;
-  padding-left: 20px;
-  line-height: 7px;
-}
-
-#evaluation_2 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}
-
-#evaluation_2 > span {
-  color: #f2f2f2;
-}
-
-#hotel_03 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 12px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  width: 247px;
-  height: 200px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-}
-
-#hotel_03 > img {
-  width: 240px;
-  height: 115px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-#texte_hotel03 {
-  width: 240px;
-  height: 79px;
-  font-size: 14px;
-  padding-left: 20px;
-  line-height: 7px;
-}
-
-#evaluation_3 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}
-
-#evaluation_3 > span {
-  color: #f2f2f2;
-}
-
-#hotel_04 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 12px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  width: 247px;
-  height: 200px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 20px;
-}
-
-#hotel_04 > img {
-  width: 240px;
-  height: 115px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-#texte_hotel04 {
-  font-size: 14px;
-  padding-left: 20px;
-  line-height: 7px;
-}
-
-#evaluation_4 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}
-
-#evaluation_4 > span {
-  color: #f2f2f2;
-}
-
-#hotel_05 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 12px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  width: 247px;
-  height: 200px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 20px;
-}
-
-#hotel_05 > img {
-  width: 240px;
-  height: 115px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-#texte_hotel05 {
-  font-size: 14px;
-  padding-left: 20px;
-  line-height: 7px;
-}
-
-#evaluation_5 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}
-
-#evaluation_5 > span {
-  color: #f2f2f2;
-}
-
-#hotel_06 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 12px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  width: 247px;
-  height: 200px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-}
-
-#hotel_06 > img {
-  width: 240px;
-  height: 115px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-#texte_hotel06 {
-  font-size: 14px;
-  padding-left: 20px;
-  line-height: 7px;
-}
-
-#evaluation_6 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}
-
-#evaluation_6 > span {
+#evaluation > span {
   color: #f2f2f2;
 }
 
 #afficherplus > p {
-  padding-top: 10px;
+  padding-top: 5px;
   font-weight: bold;
 }
+
+/*--------PARTIE_DROITE-----------------------------*/
 
 #partie_droite {
   background-color: #f2f2f2;
@@ -630,7 +344,7 @@ form > input {
   flex-direction: column;
   padding-right: 35px;
   padding-left: 35px;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 30px;
   border-radius: 20px;
   margin-left: 15px;
@@ -641,6 +355,7 @@ form > input {
   flex-direction: row;
   justify-content: space-between;
   font-size: 17px;
+  padding-bottom: 10px;
 }
 
 #titre_aside > i {
@@ -648,7 +363,7 @@ form > input {
   padding-top: 20px;
 }
 
-#hotel_07 {
+.hotel_aside {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -658,12 +373,12 @@ form > input {
   border-bottom-right-radius: 20px;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
   margin-right: 27px;
-  margin-top: 20px;
   width: 343px;
   height: 144px;
+  margin-bottom: 20px;
 }
 
-#photo_07 > img {
+.droite_aside > img {
   width: 129px;
   height: 133px;
   border-bottom-left-radius: 20px;
@@ -673,150 +388,38 @@ form > input {
   padding-bottom: 3px;
 }
 
-#text_07 {
+.gauche_aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 50px;
   margin: 0;
-  line-height: 20px;
-  text-align: start;
+  font-size: 13px;
 }
 
-#text_07 > p {
+.text_aside {
   font-size: 12px;
+  line-height: 18px;
 }
 
-#text_07 > p > span {
-  font-size: 14px;
+.text_aside span {
   font-weight: bold;
+  font-size: 14px;
 }
 
-#evaluation_7 > span {
+.evaluation_aside > span {
   color: #f2f2f2;
 }
 
-#evaluation_7 {
-  display: inline-block;
+.evaluation_aside {
   font-size: 11px;
   color: #0065fc;
   margin-bottom: 20px;
+  align-items: flex-end;
 }
 
-#hotel_08 {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 27px;
-  margin-top: 10px;
-  width: 343px;
-  height: 144px;
-  margin-top: 20px;
-}
-
-#photo_08 > img {
-  width: 129px;
-  height: 133px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 3px;
-}
-
-#text_08 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 50px;
-  margin: 0;
-  line-height: 20px;
-  text-align: start;
-}
-
-#text_08 > p {
-  font-size: 12px;
-}
-
-#text_08 > p > span {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-#evaluation_8 > span {
-  color: #f2f2f2;
-}
-
-#evaluation_8 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-bottom: 20px;
-}
-
-#hotel_09 {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 27px;
-  margin-top: 10px;
-  width: 343px;
-  height: 144px;
-  margin-top: 20px;
-}
-
-#photo_09 > img {
-  width: 129px;
-  height: 133px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 3px;
-}
-
-#text_09 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 50px;
-  margin: 0;
-  line-height: 20px;
-  text-align: start;
-}
-
-#text_09 > p {
-  font-size: 12px;
-}
-
-#text_09 > p > span {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-#evaluation_9 > span {
-  color: #f2f2f2;
-}
-
-#evaluation_9 {
-  display: inline-block;
-  font-size: 11px;
-  color: #0065fc;
-  margin-bottom: 20px;
-}
+/*----------BLOC_3-------------------------------------*/
 
 #bloc_03 {
   display: flex;
