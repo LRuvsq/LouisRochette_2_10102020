@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   width: 1300px;
   margin: auto;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 nav {
@@ -89,11 +89,11 @@ main {
 }
 
 #titre > h1 {
-  font-size: 20.5px;
+  font-size: 21px;
 }
 
 #titre > p {
-  font-size: 15px;
+  font-size: 15.4px;
 }
 
 /*-----------FORMULAIRE-------------------------------*/
@@ -107,8 +107,7 @@ main {
 }
 
 #logo_position {
-  width: 49px;
-  height: 50px;
+  width: 4%;
   background-color: #f2f2f2;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -146,7 +145,7 @@ form > input {
 }
 
 #bouton_recherche > input {
-  margin-top: 15px;
+  margin-top: 15px; /*pour centrer le mot recherche*/
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Raleway", sans-serif;
@@ -165,6 +164,7 @@ form > input {
   justify-content: start;
   font-weight: bold;
   margin-top: 32px;
+  font-size: 15px;
 }
 
 #filtres > div {
@@ -193,8 +193,8 @@ form > input {
 }
 
 .titre_element p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .element_filtre:hover {
@@ -235,7 +235,7 @@ form > input {
 }
 
 #texte_info > p {
-  font-size: 14px;
+  font-size: 15.5px;
 }
 
 #icone_info {
