@@ -10,7 +10,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1250px;
+  width: 1300px;
   margin: auto;
   font-size: 13px;
 }
@@ -72,7 +72,7 @@ nav span {
 /* MAIN----------------------------------------------*/
 
 main {
-  width: 1250px;
+  width: 1300px;
   margin: auto;
 }
 
@@ -266,27 +266,31 @@ form > input {
   flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 
 #premiere_ligne {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
+  height: min-content;
 }
 
 #deuxieme_ligne {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 #partie_gauche > h1 {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 7px;
   padding-top: 35px;
+  padding-bottom: 21px;
 }
 
 #hotel {
@@ -294,18 +298,15 @@ form > input {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-size: 12px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  height: 83%;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
   margin-right: 20px;
 }
 
 #hotel > img {
-  height: 57%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-top: 3px;
@@ -331,9 +332,11 @@ form > input {
   color: #f2f2f2;
 }
 
-#afficherplus > p {
-  padding-top: 5px;
+#afficherplus {
   font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
 }
 
 /*--------PARTIE_DROITE-----------------------------*/
@@ -342,12 +345,13 @@ form > input {
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 40px;
+  padding-left: 40px;
   padding-top: 25px;
   padding-bottom: 30px;
   border-radius: 20px;
-  margin-left: 15px;
+  margin-left: 30px;
+  width: 100%;
 }
 
 #titre_aside {
@@ -359,7 +363,7 @@ form > input {
 }
 
 #titre_aside > i {
-  font-size: 23px;
+  font-size: 25px;
   padding-top: 20px;
 }
 
@@ -372,30 +376,22 @@ form > input {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 27px;
-  width: 343px;
-  height: 144px;
   margin-bottom: 20px;
+  padding-right: 30px;
 }
 
-.droite_aside > img {
-  width: 129px;
-  height: 133px;
+.gauche_aside > img {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 3px;
+  padding-top: 4px;
+  padding-left: 4px;
 }
 
-.gauche_aside {
+.droite_aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 20px;
-  padding-right: 50px;
-  margin: 0;
-  font-size: 13px;
 }
 
 .text_aside {
@@ -405,7 +401,7 @@ form > input {
 
 .text_aside span {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .evaluation_aside > span {
