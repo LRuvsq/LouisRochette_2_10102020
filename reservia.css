@@ -10,7 +10,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1300px;
+  width: 1250px;
   margin: auto;
   font-size: 15px;
 }
@@ -72,7 +72,7 @@ nav span {
 /* MAIN----------------------------------------------*/
 
 main {
-  width: 1300px;
+  width: 1250px;
   margin: auto;
 }
 
@@ -164,7 +164,7 @@ form > input {
   justify-content: start;
   font-weight: bold;
   margin-top: 32px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #filtres > div {
@@ -177,7 +177,8 @@ form > input {
   justify-content: space-around;
   border: 2px #f2f2f2 solid;
   border-left-color: #deebff;
-  border-radius: 40px;
+  border-radius: 50px;
+
 }
 
 .logo_element {
@@ -239,7 +240,7 @@ form > input {
 }
 
 #icone_info {
-  margin-top: 9px;
+  margin-top: 13px;
   border: 1px #deebff solid;
   border-radius: 20px;
   height: 25px;
@@ -249,7 +250,7 @@ form > input {
 #icone_info > i {
   font-size: 12px;
   color: #0065fc;
-  margin-left: 11px;
+  margin-left: 10px;
   margin-top: 6px;
 }
 
@@ -266,8 +267,9 @@ form > input {
   flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
-  padding-left: 40px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 80%;
 }
 
 #premiere_ligne {
@@ -290,7 +292,7 @@ form > input {
   font-size: 21px;
   line-height: 7px;
   padding-top: 35px;
-  padding-bottom: 21px;
+  padding-bottom: 18px;
 }
 
 #hotel {
@@ -345,20 +347,20 @@ form > input {
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 25px;
+  padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 30px;
   border-radius: 20px;
   margin-left: 30px;
-  width: 100%;
+  width: 80%;
+
 }
 
 #titre_aside {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 17px;
   padding-bottom: 10px;
 }
 
@@ -377,7 +379,7 @@ form > input {
   border-bottom-right-radius: 20px;
   box-shadow: 1px 1px 60px rgb(185, 181, 181);
   margin-bottom: 20px;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .gauche_aside > img {
@@ -385,6 +387,7 @@ form > input {
   border-top-left-radius: 20px;
   padding-top: 4px;
   padding-left: 4px;
+ 
 }
 
 .droite_aside {
@@ -401,7 +404,7 @@ form > input {
 
 .text_aside span {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .evaluation_aside > span {
