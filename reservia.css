@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100%;
   margin: auto;
 }
@@ -79,13 +79,13 @@ main {
 #bloc_01 {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
 }
 
 /*-----------TITRE-----------------------------------*/
 
 #titre {
   line-height: 20px;
-  margin-top: 50px;
 }
 
 #titre > h1 {
@@ -102,7 +102,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  margin-top: 10px;
+  padding-top: 10px;
   border-radius: 10px;
 }
 
@@ -124,30 +124,20 @@ main {
   width: 18%;
 }
 
-form {
-  margin-top: 0px;
-  margin-bottom: 5px;
-  width: 70%;
-}
-
 form > input {
-  margin-top: 14px;
+  padding-top: 14px;
   padding-left: 10px; /* pour centre l'écriture du */
   font-size: 16px; /* formulaire */
   font-weight: bold;
 }
 
-#bouton_recherche {
-  height: 49px;
+#bouton_recherche > input {
+  padding-top: 15px; /*pour centrer le mot recherche*/
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #0065fc;
-}
-
-#bouton_recherche > input {
-  margin-top: 15px; /*pour centrer le mot recherche*/
-  margin-left: 10px;
-  margin-right: 10px;
   font-family: "Raleway", sans-serif;
   text-align: center;
   font-size: medium;
@@ -163,7 +153,7 @@ form > input {
   flex-direction: row;
   justify-content: start;
   font-weight: bold;
-  margin-top: 32px;
+  padding-top: 32px;
   font-size: 16px;
 }
 
@@ -174,11 +164,9 @@ form > input {
 .element_filtre {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   border: 2px #f2f2f2 solid;
   border-left-color: #deebff;
   border-radius: 50px;
-
 }
 
 .logo_element {
@@ -228,11 +216,10 @@ form > input {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-  font-weight: unset;
 }
 
 #texte_info {
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
 #texte_info > p {
@@ -250,8 +237,8 @@ form > input {
 #icone_info > i {
   font-size: 12px;
   color: #0065fc;
-  margin-left: 10px;
-  margin-top: 6px;
+  padding-left: 10px;
+  padding-top: 6px;
 }
 
 /*-----------BLOC_2-------------------------------*/
@@ -267,24 +254,24 @@ form > input {
   flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
-  padding-left: 30px;
-  padding-right: 10px;
-  width: 80%;
+  flex: 2.5;
 }
 
 #premiere_ligne {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: end;
-  height: min-content;
+  justify-content: start;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #deuxieme_ligne {
-  margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 #partie_gauche > h1 {
@@ -292,26 +279,25 @@ form > input {
   line-height: 7px;
   padding-top: 35px;
   padding-bottom: 18px;
+  padding-left: 30px;
 }
 
 .hotel{
-  background-color: white;
+  background-color: rgb(255, 255,255);
   display: flex;
   flex-direction: column;
   justify-content: start;
+  margin: auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  margin-right: 20px;
-  border: none;
+  box-shadow: 1px 1px 10px rgb(185, 181, 181);
 }
 
 a{
   text-decoration: none;
-  color: black;
-  
+  color: rgb(0, 0,0);
 }
 
 .hotel > img {
@@ -334,7 +320,7 @@ a{
   justify-content: start;
   font-size: 11px;
   color: #0065fc;
-  margin-left: 20px;
+  padding-left: 20px;
   padding-bottom: 10px;
 }
 
@@ -346,6 +332,7 @@ a{
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 10px;
+  padding-left: 30px;
   font-size: 16px;
 }
 
@@ -357,19 +344,19 @@ a{
   flex-direction: column;
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 25px;
+  padding-top: 26px;
   padding-bottom: 30px;
   border-radius: 20px;
   margin-left: 30px;
-  width: 80%;
-
+  flex: 1;
 }
 
 #titre_aside {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
+  font-size: 17px;
 }
 
 #titre_aside > i {
@@ -378,6 +365,7 @@ a{
 }
 
 .hotel_aside {
+  background-color: rgb(255, 255,255);
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -385,24 +373,30 @@ a{
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
+  box-shadow: 1px 1px 10px rgb(185, 181, 181);
+  width: 98%; /* --> pour reduire */
+  margin: auto;  /* l'espace a droite */
   margin-bottom: 20px;
-  
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0,0);
 }
 
 .gauche_aside > img {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-  padding-top: 4px;
-  padding-left: 4px;
- 
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 20px;
 }
 
 .droite_aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 20px;
+  
 }
 
 .text_aside {
@@ -422,8 +416,7 @@ a{
 .evaluation_aside {
   font-size: 11px;
   color: #0065fc;
-  margin-bottom: 20px;
-  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 /*----------BLOC_3-------------------------------------*/
