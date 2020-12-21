@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="reservia.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1249px)" href="reservia_mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 765px)" href="reservia_mobile.css" />
     <script
       src="https://kit.fontawesome.com/210e51e889.js"
       crossorigin="anonymous"
@@ -71,6 +72,10 @@
             <div id="bouton_recherche">
               <input style="border: 0px" type="button" value="Rechercher" />
             </div>
+
+            <a id="bouton_recherche_responsive">
+              <i class="fas fa-search"></i>
+            </a>
           </div>
 
           <div id="filtres">
@@ -338,62 +343,58 @@
           </aside>
       </section>
 
+      
       <section id="bloc_03">
-
-        <a id="titre_bloc_03">
+        <div id="titre_bloc_03">
           <h1> Activités à Marseille </h1>
-        </a>
+        </div>
 
         <div id="activites">
 
-          <div id="section1">
-
-            <div id="section1_element1">
+          <div class="section">
+            <a href="reservia.html" class="section_element">
               <img src="images/activites/4_small/vieux_portS1.png" alt="photo du port de Marseille">
               <p> Vieux Port </p>
-            </div>
-
+            </a>
           </div>
 
-          <div id="section2">
-
-            <div id="section2_element1">
+          <div class="section">
+            <a href="reservia.html" class="section_element">
               <img src="images/activites/4_small/fortS1.png" alt="photo du fort de Pomègues">
               <p> Fort de Pomègues </p>
-            </div>
+            </a>
 
-            <div id="section2_element2">
-              <img src="images/activites/4_small/frioulS1.png" alt="photo de l'ile du Frioul">
+            <a href="reservia.html" class="section_element">
+              <img src="images/activites/4_small/frioulL1.png" alt="photo de l'ile du Frioul">
               <p> Îles du Frioul </p>
-            </div>
+            </a>
 
           </div>
 
-          <div id="section3">
+          <div class="section">
 
-            <div id="section3_element1">
+            <a href="reservia.html" class="section_element">
               <img src="images/activites/4_small/calanquesS3.png" alt="photo du parc des calanques">
               <p> Parc National des Calanques</p>
-            </div>
+            </a>
 
           </div>
 
-          <div id="section4">
+          <div class="section">
 
-            <div id="section4_element1">
-              <img src="images/activites/4_small/gardeS1.png" alt="photo de notre dame de la garde">
+            <a href="reservia.html" class="section_element">
+              <img src="images/activites/4_small/gardeL2.png" alt="photo de notre dame de la garde">
               <p> Notre-Dame-de-la-Garde </p>
-            </div>
+            </a>
 
-            <div id="section4_element2">
-              <img src="images/activites/4_small/parcS2.png" alt="photo fontaine parc Longchamp">
+            <a href="reservia.html" class="section_element">
+              <img src="images/activites/4_small/parcL1.png" alt="photo fontaine parc Longchamp">
               <p> Parc Longchamp </p>
-            </div>
+            </a>
 
           </div>
-
         </div>
-      </div>
+      
 
       </section>
     </main>

@@ -26,15 +26,15 @@ nav span {
 }
 
 #logo_reservia {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #inscrire {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #activite {
-  padding-top: 50px;
+  padding-top: 40px;
   margin-right: 50px;
 }
 
@@ -46,7 +46,7 @@ nav span {
 }
 
 #hebergements * {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #hebergements a:link {
@@ -144,6 +144,10 @@ form > input {
   font-weight: bold;
   background-color: #0065fc;
   color: white;
+}
+
+#bouton_recherche_responsive{
+  display:none;
 }
 
 /*-----------FILTRES-------------------------------*/
@@ -424,172 +428,53 @@ a{
 #bloc_03 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 50px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#titre_bloc_03 h1 {
-  font-size: 20px;
-  font-weight: bold;
+#titre_bloc_03 h1{
+  font-size: 21px;
 }
 
-#activites {
+#activites{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  margin-top: 10px;
 }
 
-#section1 {
-  display: flex;
-  flex-direction: column;
-}
-
-#section1_element1 {
-  display: flex;
-  flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  width: 95%;
-}
-
-#section1_element1 img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-#section1_element1 p {
-  padding-left: 20px;
-  font-weight: bold;
-}
-
-#section2 {
+.section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 20px;
 }
 
-#section2_element1 {
+a{
+  text-decoration: none;
+  color: rgb(0, 0,0);
+}
+
+.section_element{
   display: flex;
   flex-direction: column;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  width: 95%;
+  box-shadow: 1px 1px 5px rgb(185, 181, 181);
+  margin-right: 30px;
 }
 
-#section2_element1 img {
+.section_element img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  width: 18.1em;
 }
 
-#section2_element1 p {
+.section_element p {
   padding-left: 20px;
   font-weight: bold;
 }
 
-#section2_element2 {
-  display: flex;
-  flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  width: 95%;
-}
-
-#section2_element2 img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-#section2_element2 p {
-  padding-left: 20px;
-  font-weight: bold;
-}
-
-#section3 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-#section3_element1 {
-  display: flex;
-  flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  width: 95%;
-}
-
-#section3_element1 img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-#section3_element1 p {
-  padding-left: 20px;
-  font-weight: bold;
-}
-
-#section4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 20px;
-}
-
-#section4_element1 {
-  display: flex;
-  flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  width: 95%;
-}
-
-#section4_element2 {
-  display: flex;
-  flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 1px 1px 60px rgb(185, 181, 181);
-  width: 95%;
-}
-
-#section4_element1 img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-#section4_element1 p {
-  padding-left: 20px;
-  font-weight: bold;
-}
-
-#section4_element2 img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-#section4_element2 p {
-  padding-left: 20px;
-  font-weight: bold;
-}
 
 /* FOOTER----------------------------------------------*/
 
@@ -608,11 +493,11 @@ footer {
   flex-direction: row;
   justify-content: start;
   line-height: 30px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 #fond_footer div:not(#apropos){
-  margin-left: 20%;
+  margin-left: 18.5%;
 }
 
 

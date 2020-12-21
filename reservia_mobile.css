@@ -1,6 +1,5 @@
-main {
-  width: 375px;  
-}
+
+/* HEADER----------------------------------------------*/
 
 header {
   flex-direction: column;
@@ -54,106 +53,67 @@ nav div {
   margin-bottom: 30px;
 }
 
-#titre {
-  padding-left: 20px;
-  padding-right: 40px;
-  line-height: 3px;
-}
+/* MAIN----------------------------------------------*/
 
-#titre > span {
-  line-height: 25px;
-}
-
-#formulaire {
-  margin-top: 40px;
-  margin-left: 20px;
-  justify-content: start;
-  border: 1px #f2f2f2 solid;
-  width: 86%;
-  border-radius: 15px;
-}
-
-form > input {
-  width: 97%;
-}
-
-#logo_position {
-  width: 49px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-#barre_recherche {
-  border: none;
-  width: 70%;
-}
-
-#bouton_recherche {
-  position: relative;
-  align-content: flex-end;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  width: 49px;
-}
-
-#bouton_recherche::after {
-  position: absolute;
-  font-family: "FontAwesome";
-  top: 0;
-  left: 10px;
-  content: "\f002";
-  color: white;
-  padding-top: 15px;
-  padding-left: 7px;
-}
-
-#bouton_recherche > input {
-  background-color: tomato;
-  margin: 0;
-  visibility: hidden;
-}
-
-#filtres {
-  flex-wrap: wrap;
-  margin-left: 20px;
-  margin-top: 0;
-}
-
-#filtres > div:not(#titre_filtres) {
-  margin-bottom: 16px;
-}
-
-#titre_filtres {
-  width: auto;
+main {
   width: 100%;
-  margin-top: 20px;
 }
 
-#info {
-  margin-top: 5px;
+#bloc_01{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#texte_info {
-  margin-left: 12px;
+#titre {
+  width: 100%;
+  padding-right: 40px;
+  
 }
 
-#texte_info > p {
-  font-size: 16px;
-}
-
-#icone_info > i {
+#formulaire{
   margin: auto;
-  padding-left: 11px;
-  padding-top: 6px;
 }
 
-#icone_info {
-  width: 9%;
-  margin-left: 20px;
-  margin-top: 12px;
+#logo_position{
+  width: 15%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+
+#barre_recherche{
+  width: 65%;
+}
+
+#bouton_recherche > input{
+  display: none;
+}
+
+#bouton_recherche_responsive{
+  display: unset;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 15px;
+  background-color: #0065fc;
+  color: rgb(255, 255, 255);
+}
+
+
+/*  #bouton_recherche{
+    position: absolute;
+  }
+
+  #bouton_recherche > input{
+    visibility: hidden;
+  }
+
+  #bouton_recherche::after {
+    position: relative;
+    font-family: "FontAwesome";
+    content: "\f002";
+    color: white;
+    padding-left: 20px;
+  }
+*/
 
 #bloc_02 {
   flex-direction: column-reverse;
