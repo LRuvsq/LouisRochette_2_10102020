@@ -1,57 +1,66 @@
 
 /* HEADER----------------------------------------------*/
 
-header {
+header{
+  width: 100%;
   flex-direction: column;
 }
 
-#titre > span {
-  font-size: 17px;
+#logo_reservia{
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
 }
 
-#logo_reservia > img {
-  margin-left: 20px;
+#image_logo{
+  width: 26%;
 }
 
-#logo_reservia {
-  width: 15%;
-}
-
-nav {
-  width: auto;
-  display: row;
+nav{
   width: 100%;
+  margin-top: 20px;
 }
 
-nav div {
-  padding-left: 4px;
-  margin: 0;
-}
-
-#hebergements {
+#hebergements{
+  width: 50%;
   border: none;
-  margin: 0;
-  width: auto;
+  padding: 0;
+  border-bottom: 2px #0065fc solid;
 }
 
-#hebergements > p {
-  margin-top: 15px;
+#hebergements p{
+  display: flex;
+  justify-content: center;
+}
+
+#hebergements *{
+  padding: 0;
+}
+
+#inscrire{
+  display: none;
 }
 
 #activite {
-  margin: 0;
-  width: auto;
+  width: 50%;
+  padding: 0;
+  border-bottom: 2px #f2f2f2 solid;
 }
 
-#inscrire {
-  width: auto;
-  margin-top: 0;
-  margin-bottom: 30px;
+#activite p{
+  display: flex;
+  justify-content: center;
 }
 
-#inscrire > span {
-  margin-bottom: 30px;
+#inscrire_responsive{
+  display: unset;
+  color: #0065fc;
 }
+
 
 /* MAIN----------------------------------------------*/
 
@@ -60,28 +69,44 @@ main {
 }
 
 #bloc_01{
+  padding-top: 0;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/*-----------FORMULAIRE-------------------------------*/
+
 #titre {
   width: 100%;
   padding-right: 40px;
-  
+  margin-top: 20px;
 }
 
 #formulaire{
+  width: 100%;
   margin: auto;
+  margin-top: 20px;
+  border: 1px #f2f2f2 solid;
+  border-radius: 15px;
+  border-right: none;
 }
 
 #logo_position{
-  width: 15%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  width: 16%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo_position > i {
+  padding-left: 20px; /* pour cadrer l'icone */
 }
 
 #barre_recherche{
-  width: 65%;
+  width: 67.8%;
+  border: none;
 }
 
 #bouton_recherche > input{
@@ -89,228 +114,101 @@ main {
 }
 
 #bouton_recherche_responsive{
+  width: 16%;
   display: unset;
-  padding: 15px;
-  font-size: 18px;
   border-radius: 15px;
   background-color: #0065fc;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#bouton_recherche_responsive i{
+  font-size: 17px;
+}
 
-/*  #bouton_recherche{
-    position: absolute;
-  }
+/*-----------FILTRES-------------------------------*/
 
-  #bouton_recherche > input{
-    visibility: hidden;
-  }
+#filtres{
+  padding-top: 20px;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
 
-  #bouton_recherche::after {
-    position: relative;
-    font-family: "FontAwesome";
-    content: "\f002";
-    color: white;
-    padding-left: 20px;
-  }
-*/
+#titre_filtres{
+  width: 100%;
+}
 
-#bloc_02 {
+.eco{
+  width: 50%;
+}
+
+#filtres > div {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/*-----------INFOS-------------------------------*/
+
+#info{
+  width: 100%;
+}
+
+#texte_info {
+  flex-wrap: wrap;
+}
+
+#icone_info{
+  width: 30px;
+}
+
+/*-----------BLOC_2-------------------------------*/
+
+#bloc_02{
   flex-direction: column-reverse;
+  width: 100%;
 }
 
-#partie_droite {
-  margin-left: 0;
+/*--------PARTIE_DROITE-----------------------------*/
+
+#partie_droite{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
   border-radius: 0;
-  padding-right: 0;
-  padding-left: 0;
-  padding-top: 10px;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
-#partie_droite > div:not(#hotel_07) {
-  margin-top: 15px;
+#titre_aside{
+  width: 100%;
 }
 
-#titre_aside {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+/*--------PARTIE_GAUCHE-----------------------------*/
 
-#hotel_07 {
-  margin: auto;
-}
-
-#hotel_08 {
-  margin: auto;
-}
-
-#hotel_09 {
-  margin: auto;
-}
-
-#partie_gauche {
-  margin-top: 5px;
-  flex-direction: column;
-  background-color: white;
+#partie_gauche{
+  background-color: #ffffff;
   border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#premiere_ligne{
+  display: none;
+}
+
+#deuxieme_ligne{
+  display: none;
+}
+
+#premiere_ligne_responsive{
   padding: 0;
-  margin-left: 20px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#partie_gauche > h1 {
-  background-color: white;
-}
-
-#premiere_ligne {
-  padding-top: 8px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-#hotel_01 {
-  width: 333px;
-}
-
-#hotel_01 > img {
-  width: 325px;
-  height: 113px;
-}
-
-#hotel_02 {
-  width: 333px;
-}
-
-#hotel_02 > img {
-  width: 325px;
-  height: 113px;
-}
-
-#hotel_03 {
-  width: 333px;
-}
-
-#hotel_03 > img {
-  width: 325px;
-  height: 113px;
-}
-
-#premiere_ligne > div:not(#hotel_01) {
-  margin-top: 15px;
-}
-
-#deuxieme_ligne {
-  display: flex;
+#deuxieme_ligne{
+  padding: 0;
   flex-direction: column;
-  justify-content: space-between;
-
-  padding-bottom: 18px;
+  
 }
 
-#deuxieme_ligne > div:not(#hotel_04) {
-  margin-top: 15px;
-}
-
-#hotel_04 {
-  width: 333px;
-}
-
-#hotel_04 > img {
-  width: 325px;
-  height: 113px;
-}
-
-#hotel_05 {
-  width: 333px;
-}
-
-#hotel_05 > img {
-  width: 325px;
-  height: 113px;
-}
-
-#hotel_06 {
-  width: 333px;
-}
-
-#hotel_06 > img {
-  width: 325px;
-  height: 113px;
-}
-
-#titre_bloc_03 h1 {
-  margin-left: 20px;
-}
-
-#section1 {
-  margin-left: 20px;
-}
-
-#activites {
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-#section1_element1 {
-  width: 334px;
-  height: 188px;
-  margin-top: 10px;
-}
-
-#section1_element1 > img {
-  height: 134px;
-}
-
-#section2_element1 {
-  width: 334px;
-  height: 188px;
-  margin-top: 10px;
-}
-
-#section2_element1 > img {
-  height: 134px;
-}
-
-#section2_element2 {
-  width: 334px;
-  height: 188px;
-  margin-top: 10px;
-}
-
-#section2_element2 > img {
-  height: 134px;
-}
-
-#section3_element1 {
-  width: 334px;
-  height: 188px;
-  margin-top: 10px;
-}
-
-#section3_element1 > img {
-  height: 134px;
-}
-
-#section4_element1 {
-  width: 334px;
-  height: 188px;
-  margin-top: 10px;
-}
-
-#section4_element1 > img {
-  height: 134px;
-}
-
-#section4_element2 {
-  width: 334px;
-  height: 188px;
-  margin-top: 10px;
-}
-
-#section4_element2 > img {
-  height: 134px;
-}
