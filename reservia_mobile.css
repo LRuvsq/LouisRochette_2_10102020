@@ -29,6 +29,7 @@ nav{
   width: 50%;
   border: none;
   padding: 0;
+  margin-right: 0;
   border-bottom: 2px #0065fc solid;
 }
 
@@ -48,6 +49,7 @@ nav{
 #activite {
   width: 50%;
   padding: 0;
+  margin-right: 0;
   border-bottom: 2px #f2f2f2 solid;
 }
 
@@ -201,14 +203,86 @@ main {
   display: none;
 }
 
+#partie_gauche > h1{
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+.hotel{
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+}
+
 #premiere_ligne_responsive{
+  display: flex;
   padding: 0;
   flex-direction: column;
 }
 
-#deuxieme_ligne{
+#deuxieme_ligne_responsive{
+  display: flex;
   padding: 0;
+  flex-direction: column;
+}
+
+#afficherplus{
+  padding-left: 0;
+
+}
+
+/*----------BLOC_3-------------------------------------*/
+
+#bloc_03{
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#titre_bloc_03 h1{
+  width: 100%;
+}
+
+#activites{
+  display: none;
+}
+
+#activites_responsive{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section_element{
+  margin: auto;
+  margin-top: 15px;
+}
+
+.section_element img{
+  width: 100%;
+}
+
+/*------FOOOTER-------------------------*/
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#fond_footer{
+  width: 100%;
+  margin: auto;
+  padding-left: 22px;
+  padding-right: 22px;
   flex-direction: column;
   
 }
 
+#fond_footer div:not(#apropos){
+  margin: 0;
+  margin-top: 30px;
+}
