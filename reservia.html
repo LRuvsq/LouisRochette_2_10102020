@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="reservia.css" />
-    <link rel="stylesheet" media="screen and (max-width: 700px)" href="reservia_mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="reservia_mobile.css" />
     <script
       src="https://kit.fontawesome.com/210e51e889.js"
       crossorigin="anonymous"
@@ -76,13 +76,13 @@
               </form>
             </div>
 
-            <div id="bouton_recherche">
-              <input style="border: 0px" type="button" value="Rechercher" />
-            </div>
+            <button id="bouton_recherche">
+              <p> Rechercher </p>
+            </button>
 
-            <div id="bouton_recherche_responsive">
+            <button id="bouton_recherche_responsive">
               <i class="fas fa-search"></i>
-            </div>
+            </button>
           </div>
 
           <div id="filtres">
@@ -152,8 +152,10 @@
 
                 <a href="reservia.html" class="hotel">
 
-                  <img src="images/hebergements/4_small/cannebiereB.png" alt="hotel" />
-                  
+                  <div class="photo_hotel_canne">
+                    <img src="images/hebergements/4_small/cannebiere.jpg" alt="hotel">
+                  </div>
+
                   <div class="texte_hotel"> 
                     <p> <strong> Auberge la Cannebière </strong>   </p>
                     <p> Nuit à partir de <strong> 25 €  </strong> </p>
@@ -169,10 +171,12 @@
               
                 </a>
                 
-                <a href="reservia.html" class="hotel">
-                
-                  <img src="images/hebergements/4_small/portB.png" alt="hotel" />
-                  
+                <a href="reservia.html" class="hotel port">
+
+                  <div class="photo_hotel_port"> 
+                    <img src="images/hebergements/4_small/port.jpg"   alt="hotel">
+                  </div>
+
                   <div class="texte_hotel"> 
                     <p> <strong> Hôtel du port </strong>   </p>
                     <p> Nuit à partir de <strong> 52 €  </strong> </p>
@@ -187,10 +191,12 @@
                   </div>
                 </a>
 
-                <a href="reservia.html" class="hotel">
-                
-                  <img src="images/hebergements/4_small/mouettesB.png" alt="hotel" />
+                <a href="reservia.html" class="hotel mouettes">
                   
+                  <div class="photo_hotel_mouettes"> 
+                    <img src="images/hebergements/4_small/mouettes.jpg" alt="hotel">
+                  </div>
+
                   <div class="texte_hotel"> 
                     <p> <strong> Hôtel les mouettes </strong>   </p>
                     <p> Nuit à partir de <strong> 76 €  </strong> </p>
@@ -207,70 +213,13 @@
              
             </div>
 
-            <div id="premiere_ligne_responsive">
-                <a href="reservia.html" class="hotel">
-
-                  <img src="images/hebergements/4_small/cannebiereM.png" alt="hotel" />
-                  
-                  <div class="texte_hotel"> 
-                    <p> <strong> Auberge la Cannebière </strong>   </p>
-                    <p> Nuit à partir de <strong> 25 €  </strong> </p>
-                  </div>
-
-                  <div class="evaluation">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                      <span> <i class="fas fa-star"></i> </span>
-                  </div>
-              
-                </a>
-                
-                <a href="reservia.html" class="hotel">
-                
-                  <img src="images/hebergements/4_small/portM.png" alt="hotel" />
-                  
-                  <div class="texte_hotel"> 
-                    <p> <strong> Hôtel du port </strong>   </p>
-                    <p> Nuit à partir de <strong> 52 €  </strong> </p>
-                  </div>
-
-                  <div class="evaluation">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i> 
-                  </div>
-                </a>
-
-                <a href="reservia.html" class="hotel">
-                
-                  <img src="images/hebergements/4_small/mouettesM.jpg" alt="hotel" />
-                  
-                  <div class="texte_hotel"> 
-                    <p> <strong> Hôtel les mouettes </strong>   </p>
-                    <p> Nuit à partir de <strong> 76 €  </strong> </p>
-                  </div>
-
-                  <div class="evaluation">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span> <i class="fas fa-star"></i> </span> 
-                  </div>
-                </a>
-           
-            </div>
-            
-
             <div id="deuxieme_ligne">
 
               <a href="reservia.html" class="hotel">
                 
-                  <img src="images/hebergements/4_small/merB.png" alt="hotel" />
+                <img src="images/hebergements/4_small/mer.jpg"
+               
+                alt="hotel">
                   
                   <div class="texte_hotel"> 
                     <p> <strong> Hôtel de la mer </strong>   </p>
@@ -289,7 +238,9 @@
             
               <a href="reservia.html" class="hotel">
 
-                   <img src="images/hebergements/4_small/panierB.png" alt="hotel" />
+                <img src="images/hebergements/4_small/panier.jpg"
+              
+                alt="hotel">
                   
                     <div class="texte_hotel"> 
                       <p> <strong> Auberge Le Panier </strong>   </p>
@@ -308,8 +259,10 @@
 
               <a href="reservia.html" class="hotel">
 
-                  <img src="images/hebergements/4_small/aminaB.png" alt="hotel" />
+                  <img src="images/hebergements/4_small/amina.jpg"
                   
+                  alt="hotel">
+
                   <div class="texte_hotel"> 
                     <p> <strong> Hôtel chez Amina </strong>   </p>
                     <p> <span> Nuit à partir de <strong> 96 €  </strong> </span> </p>
@@ -324,65 +277,6 @@
                   </div>
               </a>
               
-            </div>
-
-            <div id="deuxieme_ligne_responsive">
-
-              <a href="reservia.html" class="hotel">
-                
-                  <img src="images/hebergements/4_small/merM.png" alt="hotel" />
-                  
-                  <div class="texte_hotel"> 
-                    <p> <strong> Hôtel de la mer </strong>   </p>
-                    <p> Nuit à partir de <strong> 46 €  </strong> </p>
-                  </div>
-
-                  <div class="evaluation">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span> <i class="fas fa-star"></i> </span> 
-                    <span> <i class="fas fa-star"></i> </span> 
-                  </div>
-
-              </a>
-            
-              <a href="reservia.html" class="hotel">
-
-                   <img src="images/hebergements/4_small/panierM.png" alt="hotel" />
-                  
-                    <div class="texte_hotel"> 
-                      <p> <strong> Auberge Le Panier </strong>   </p>
-                      <p> Nuit à partir de <strong> 23 €  </strong> </p>
-                    </div>
-
-                    <div class="evaluation">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i> 
-                      <span> <i class="fas fa-star"></i> </span> 
-                    </div>
-               
-              </a>
-
-              <a href="reservia.html" class="hotel">
-
-                  <img src="images/hebergements/4_small/aminaM.png" alt="hotel" />
-                  
-                  <div class="texte_hotel"> 
-                    <p> <strong> Hôtel chez Amina </strong>   </p>
-                    <p> <span> Nuit à partir de <strong> 96 €  </strong> </span> </p>
-                  </div>
-
-                  <div class="evaluation">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i> 
-                    <i class="fas fa-star"></i>  
-                  </div>
-              </a>
             </div>
 
             <div id="afficherplus">

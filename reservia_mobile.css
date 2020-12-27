@@ -6,6 +6,10 @@ header{
   flex-direction: column;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 #logo_reservia{
   width: 90%;
   padding-left: 20px;
@@ -111,13 +115,13 @@ main {
   border: none;
 }
 
-#bouton_recherche > input{
+#bouton_recherche{
   display: none;
 }
 
 #bouton_recherche_responsive{
+  border: unset;
   width: 16%;
-  display: unset;
   border-radius: 15px;
   background-color: #0065fc;
   color: rgb(255, 255, 255); 
@@ -134,7 +138,6 @@ main {
 
 #filtres{
   padding-top: 20px;
-  flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -145,6 +148,14 @@ main {
 
 .eco{
   width: 50%;
+}
+
+@media screen and (max-width: 370px)
+{
+  .eco{
+    width: 54%;
+  }
+    
 }
 
 #filtres > div {
@@ -274,12 +285,11 @@ footer{
 }
 
 #fond_footer{
-  width: 100%;
-  margin: auto;
+  margin: unset;
+  flex-direction: column;
   padding-left: 22px;
   padding-right: 22px;
-  flex-direction: column;
-  
+  width: 50%;
 }
 
 #fond_footer div:not(#apropos){
