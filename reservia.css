@@ -37,6 +37,8 @@ nav span {
 
 #inscrire {
   padding-top: 40px;
+  display: flex;
+  align-items: center;
 }
 
 #activite {
@@ -45,15 +47,15 @@ nav span {
 }
 
 #hebergements {
+  display: flex;
+  align-items: flex-end;
   border-top: 2px #0065fc solid;
   padding-left: 15px; /* pour augmenter la largeur de la */
   padding-right: 15px; /* bande */
   margin-right: 35px;
+  margin-bottom: 15px;
 }
 
-#hebergements * {
-  padding-top: 40px;
-}
 
 #hebergements a:link {
   color: #0065fc; /* pour changer le style  */
@@ -131,11 +133,13 @@ main {
 }
 
 form > input {
-  padding-top: 14px;
-  padding-left: 10px; /* pour centre l'écriture du */
-  font-size: 16px; /* formulaire */
+  margin: auto;
+  padding-left: 10px;
+  font-size: 16px; 
   font-weight: bold;
+  border: none;
 }
+
 
 #bouton_recherche{
   display: unset;
@@ -150,11 +154,9 @@ form > input {
   color: white;
 }
 
-#bouton_recherche_responsive{
-  display:none;
+#bouton_recherche i{
+  display: none;
 }
-
-
 
 /*-----------FILTRES-------------------------------*/
 
@@ -307,11 +309,11 @@ form > input {
 #deuxieme_ligne {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: start;
+  justify-content: space-between;
   padding-left: 35px;
   padding-right: 35px;
-  padding-top: 35px;
+  padding-top: 30px;
 }
 
 #partie_gauche > h1 {
@@ -335,17 +337,15 @@ a{
   color: rgb(0, 0,0);
 }
 
-
 .hotel img{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-top: 3px;
   padding-left: 3px;
   padding-right: 3px;
-  width: 240px;
-  height: 110px;
+  height: 105px;
+  width: 235px;
 }
-
 
 .texte_hotel {
   font-size: 14px;
@@ -368,11 +368,10 @@ a{
   color: #f2f2f2;
 }
 
-
 #afficherplus {
   font-weight: bold;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-left: 30px;
   font-size: 16px;
 }
@@ -383,10 +382,8 @@ a{
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-top: 26px;
-  padding-bottom: 25px;
+  padding: 25px;
+  padding-top: 30px;
   border-radius: 20px;
   margin-left: 30px;
   flex: 1;
@@ -397,12 +394,12 @@ a{
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 7px;
-
+  font-size: 13px;
 }
 
 #titre_aside > i {
   font-size: 25px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .hotel_aside {
@@ -410,14 +407,12 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: start;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
+  margin:auto;
+  margin-top: 3px;
   box-shadow: 1px 1px 10px rgb(185, 181, 181);
-  width: 95%; /* --> pour reduire */
-  margin: auto;  /* l'espace a droite */
-  margin-bottom: 20px;
+  width: 93%; /* --> pour reduire */
+              /* l'espace a droite */
 }
 
 a{
@@ -426,19 +421,44 @@ a{
 }
 
 .gauche_aside > img {
- 
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-  padding-top: 3px;
+  padding-top: 3.5px;
   padding-left: 3px;
   padding-right: 20px;
+  width: 123px;
+  height: 127px;
 }
 
 .droite_aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+}
+
+@media screen and ( max-width: 1180px) 
+{
+
+  #premiere_ligne{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #deuxieme_ligne{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hotel{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1072px)
+{
+  .gauche_aside > img {
+    height: 95%;
+  }
 }
 
 .text_aside {
@@ -480,10 +500,6 @@ a{
   flex-direction: row;
 }
 
-#activites_responsive{
-  display: none;
-}
-
 .section {
   display: flex;
   flex-direction: column;
@@ -498,10 +514,7 @@ a{
 .section_element{
   display: flex;
   flex-direction: column;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
   box-shadow: 1px 1px 5px rgb(185, 181, 181);
   margin-right: 30px;
 }
@@ -509,7 +522,8 @@ a{
 .section_element img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 18.1em;
+  width: 290px;
+  height: 376px;
 }
 
 .section_element p {
@@ -517,6 +531,17 @@ a{
   font-weight: bold;
 }
 
+.fort img{
+  height: 175px;
+}
+
+.frioul img{
+  height: 106px;
+}
+
+.two img{
+  height: 140px;
+}
 
 /* FOOTER----------------------------------------------*/
 

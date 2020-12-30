@@ -37,7 +37,7 @@ nav{
   border-bottom: 2px #0065fc solid;
 }
 
-#hebergements p{
+#hebergements a{
   display: flex;
   justify-content: center;
 }
@@ -67,6 +67,9 @@ nav{
   color: #0065fc;
 }
 
+#titre {
+  line-height: 25px;
+}
 
 /* MAIN----------------------------------------------*/
 
@@ -116,22 +119,16 @@ main {
 }
 
 #bouton_recherche{
+  width: 16%;
+}
+
+#bouton_recherche span{
   display: none;
 }
 
-#bouton_recherche_responsive{
-  border: unset;
-  width: 16%;
-  border-radius: 15px;
-  background-color: #0065fc;
-  color: rgb(255, 255, 255); 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#bouton_recherche_responsive i{
-  font-size: 17px;
+#bouton_recherche i{
+  display: unset;
+  margin: auto;
 }
 
 /*-----------FILTRES-------------------------------*/
@@ -150,10 +147,17 @@ main {
   width: 50%;
 }
 
-@media screen and (max-width: 370px)
+@media screen and (max-width: 374px)
 {
   .eco{
-    width: 54%;
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .eco{
+    width: unset;
   }
     
 }
@@ -193,8 +197,21 @@ main {
   border-radius: 0;
 }
 
-#titre_aside{
-  width: 100%;
+.hotel_aside{
+  width: unset;
+  margin-bottom: 15px;
+}
+
+.text_aside {
+  font-size: 15px;
+}
+
+.droite_aside {
+  padding-right: 20px;
+}
+
+.text_aside span {
+  font-size: 16px;
 }
 
 /*--------PARTIE_GAUCHE-----------------------------*/
@@ -207,11 +224,41 @@ main {
 }
 
 #premiere_ligne{
-  display: none;
+  margin-top: 10px;
+  flex-direction: column;
+  padding: 0;
 }
 
 #deuxieme_ligne{
-  display: none;
+  margin-top: 2px;
+  flex-direction: column;
+  padding: 0;
+}
+
+.hotel{
+  margin: auto;  
+  margin-bottom: 15px;
+}
+
+.hotel img{
+  height: 115px;
+  width: 329px;
+}
+
+@media screen and (max-width: 374px)
+{
+  .hotel img{
+    height: 115px;
+    width: 313.5px;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .hotel img{
+    height: 115px;
+    width: 368px;
+  }
 }
 
 #partie_gauche > h1{
@@ -222,27 +269,8 @@ main {
   padding-left: 0;
 }
 
-.hotel{
-  width: 100%;
-  margin: auto;
-  margin-top: 15px;
-}
-
-#premiere_ligne_responsive{
-  display: flex;
-  padding: 0;
-  flex-direction: column;
-}
-
-#deuxieme_ligne_responsive{
-  display: flex;
-  padding: 0;
-  flex-direction: column;
-}
-
 #afficherplus{
   padding-left: 0;
-
 }
 
 /*----------BLOC_3-------------------------------------*/
@@ -259,13 +287,7 @@ main {
 }
 
 #activites{
-  display: none;
-}
-
-#activites_responsive{
-  display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .section_element{
@@ -274,7 +296,31 @@ main {
 }
 
 .section_element img{
-  width: 100%;
+  width: 336px;
+  height: 134px;
+}
+
+@media screen and (max-width: 374px)
+{
+  .section_element img{
+    height: 135px;
+    width: 313.5px;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .section_element img{
+    height: 135px;
+    width: 368px;
+  }
+
+
+}
+
+@media screen and (-width: 768px)
+{
+
 }
 
 /*------FOOOTER-------------------------*/
