@@ -32,14 +32,13 @@ nav{
 #hebergements{
   width: 50%;
   border: none;
-  padding: 0;
-  margin-right: 0;
-  border-bottom: 2px #0065fc solid;
-}
-
-#hebergements a{
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-bottom: 2px #0065fc solid;
 }
 
 #hebergements *{
@@ -55,9 +54,6 @@ nav{
   padding: 0;
   margin-right: 0;
   border-bottom: 2px #f2f2f2 solid;
-}
-
-#activite p{
   display: flex;
   justify-content: center;
 }
@@ -65,6 +61,7 @@ nav{
 #inscrire_responsive{
   display: unset;
   color: #0065fc;
+  padding-top: 20px;
 }
 
 #titre {
