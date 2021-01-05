@@ -12,7 +12,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   max-width: 1250px;
-  width: 100%;
+  width: 100%; 
   margin: auto;
   font-size: 15px;
 }
@@ -426,7 +426,7 @@ a{
   padding-left: 3px;
   padding-right: 20px;
   width: 123px;
-  height: 127px;
+  height: 126px;
 }
 
 .droite_aside {
