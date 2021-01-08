@@ -1,9 +1,6 @@
 
 /* HEADER----------------------------------------------*/
 
-body{
-  overflow-y: hidden;
-}
 
 header{
   width: 100%;
@@ -311,7 +308,6 @@ main {
     height: 135px;
     width: 368px;
   }
-
 
 }
 
