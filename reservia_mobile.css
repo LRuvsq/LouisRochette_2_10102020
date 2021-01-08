@@ -1,6 +1,10 @@
 
 /* HEADER----------------------------------------------*/
 
+body{
+  overflow-y: hidden;
+}
+
 header{
   width: 100%;
   flex-direction: column;
