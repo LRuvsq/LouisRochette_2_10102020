@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   width: 100%;
   margin: auto;
-  overflow-x: hidden;
+
 }
 
 /* HEADER----------------------------------------------*/
@@ -544,8 +544,7 @@ a{
 
 /* FOOTER----------------------------------------------*/
 
-footer {
- 
+footer { 
   width: 100%;
   margin: auto;
   margin-top: 30px;
