@@ -31,13 +31,14 @@ nav {
 
 header p {
   color: #0065fc;
-  order: 3;
+  
 }
 
 header p {
   padding-top: 40px;
   display: flex;
   align-items: center;
+  order: 3;
 }
 
 #activite {
