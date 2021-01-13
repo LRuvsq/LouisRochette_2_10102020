@@ -18,18 +18,20 @@ header {
 }
 
 header img {
-
   padding-top: 40px;
   margin-right: auto;
+  order: 1;
 }
 
 nav {
   display: flex;
   list-style-type: none;
+  order: 2;
 }
 
 header p {
   color: #0065fc;
+  order: 3;
 }
 
 header p {

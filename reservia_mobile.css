@@ -8,15 +8,18 @@ header{
   margin-bottom: 40px;
   height: 120px;
   flex-wrap: wrap;
+  order: 1;
 }
 
 nav{
   width: 100%;
+  order: 3;
 }
 
 header p {
   padding-top: 0;
   margin-top: 55px;
+  order: 2;
 }
 
 #hebergements{
