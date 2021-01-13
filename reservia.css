@@ -10,32 +10,28 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   max-width: 1250px;
   width: 100%; 
   margin: auto;
   font-size: 15px;
 }
 
+header img {
+  padding-top: 40px;
+  margin-right: auto;
+}
+
 nav {
   display: flex;
   list-style-type: none;
-  flex-direction: row;
 }
 
-nav span {
+header p {
   color: #0065fc;
 }
 
-#logo_reservia {
-  padding-top: 40px;
-}
-
-#inscrire_responsive{
-  display: none;
-}
-
-#inscrire {
+header p {
   padding-top: 40px;
   display: flex;
   align-items: center;
@@ -44,6 +40,8 @@ nav span {
 #activite {
   padding-top: 43px;
   margin-right: 50px;
+  display: flex;
+  align-items: center;
 }
 
 #hebergements {
@@ -129,10 +127,11 @@ main {
 #barre_recherche {
   border: 1px #f2f2f2 solid;
   width: 18%;
+  display: flex;
+  align-items: center;
 }
 
 form > input {
-  margin: auto;
   padding-left: 10px;
   font-size: 16px; 
   font-weight: bold;
@@ -172,17 +171,13 @@ form > input {
   margin-right: 30px;
 }
 
+
 .element_filtre {
   display: flex;
   flex-direction: row;
   border: 2px #f2f2f2 solid;
   border-left-color: #deebff;
   border-radius: 50px;
-}
-
-.logo_element {
-  background-color: #deebff;
-  border-radius: 40px;
 }
 
 .titre_element p {
@@ -315,7 +310,7 @@ form > input {
   padding-top: 30px;
 }
 
-#partie_gauche > h1 {
+#partie_gauche > h2 {
   font-size: 21px;
   line-height: 7px;
   padding-top: 35px;
@@ -490,7 +485,7 @@ a{
   padding-bottom: 50px;
 }
 
-#titre_bloc_03 h1{
+#titre_bloc_03 h2{
   font-size: 21px;
 }
 
@@ -540,6 +535,25 @@ a{
 
 .two img{
   height: 140px;
+}
+
+@media screen and ( max-width: 1240px) 
+{
+  #activites{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin:auto;
+  }
+
+  .section{
+    margin-top: 20px;
+  }
+
+  .section_element{
+    margin-top: 20px;
+  }
+
 }
 
 /* FOOTER----------------------------------------------*/

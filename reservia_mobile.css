@@ -3,26 +3,20 @@
 
 
 header{
+  display: unset;
   width: 100%;
-  flex-direction: column;
-}
-
-#logo_reservia{
-  width: 90%;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
-}
-
-#image_logo{
-  width: 26%;
+  margin-bottom: 40px;
+  height: 120px;
 }
 
 nav{
   width: 100%;
-  margin-top: 20px;
+}
+
+header p {
+  padding-top: 0;
+  display: flex;
+  align-items: flex-start;
 }
 
 #hebergements{
@@ -33,16 +27,15 @@ nav{
   align-items: center;
   padding: 0;
   margin-right: 0;
+  margin-top: 0;
   margin-bottom: 0;
   border-bottom: 2px #0065fc solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #hebergements *{
   padding: 0;
-}
-
-#inscrire{
-  display: none;
 }
 
 #activite {
@@ -52,14 +45,11 @@ nav{
   border-bottom: 2px #f2f2f2 solid;
   display: flex;
   justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0;
 }
-
-#inscrire_responsive{
-  display: unset;
-  color: #0065fc;
-  padding-top: 20px;
-}
-
+s
 #titre {
   line-height: 25px;
 }
@@ -245,13 +235,7 @@ main {
   }
 }
 
-@media screen and (min-width: 414px)
-{
-  .hotel img{
-    height: 115px;
-    width: 368px;
-  }
-}
+
 
 #partie_gauche > h1{
   width: 100%;
@@ -303,8 +287,8 @@ main {
 @media screen and (min-width: 414px)
 {
   .section_element img{
-    height: 135px;
-    width: 368px;
+    width: 366px;
+    height: 134px;
   }
 
 }

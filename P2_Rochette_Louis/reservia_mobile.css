@@ -1,0 +1,330 @@
+
+/* HEADER----------------------------------------------*/
+
+
+header{
+  width: 100%;
+  flex-direction: column;
+}
+
+#logo_reservia{
+  width: 90%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#image_logo{
+  width: 26%;
+}
+
+nav{
+  width: 100%;
+  margin-top: 20px;
+}
+
+#hebergements{
+  width: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-bottom: 2px #0065fc solid;
+}
+
+#hebergements *{
+  padding: 0;
+}
+
+#inscrire{
+  display: none;
+}
+
+#activite {
+  width: 50%;
+  padding: 0;
+  margin-right: 0;
+  border-bottom: 2px #f2f2f2 solid;
+  display: flex;
+  justify-content: center;
+}
+
+#inscrire_responsive{
+  display: unset;
+  color: #0065fc;
+  padding-top: 20px;
+}
+
+#titre {
+  line-height: 25px;
+}
+
+/* MAIN----------------------------------------------*/
+
+main {
+  width: 100%;
+}
+
+#bloc_01{
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-----------FORMULAIRE-------------------------------*/
+
+#titre {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#formulaire{
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px #f2f2f2 solid;
+  border-radius: 15px;
+  border-right: none;
+}
+
+#logo_position{
+  width: 16%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo_position > i {
+  padding-left: 20px; /* pour cadrer l'icone */
+}
+
+#barre_recherche{
+  width: 67.8%;
+  border: none;
+}
+
+#bouton_recherche{
+  width: 16%;
+}
+
+#bouton_recherche span{
+  display: none;
+}
+
+#bouton_recherche i{
+  display: unset;
+  margin: auto;
+}
+
+/*-----------FILTRES-------------------------------*/
+
+#filtres{
+  padding-top: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#titre_filtres{
+  width: 100%;
+}
+
+.eco{
+  width: 50%;
+}
+
+@media screen and (max-width: 374px)
+{
+  .eco{
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .eco{
+    width: unset;
+  }
+    
+}
+
+#filtres > div {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/*-----------INFOS-------------------------------*/
+
+#info{
+  width: 100%;
+}
+
+#texte_info {
+  flex-wrap: wrap;
+}
+
+#icone_info{
+  width: 30px;
+}
+
+/*-----------BLOC_2-------------------------------*/
+
+#bloc_02{
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+/*--------PARTIE_DROITE-----------------------------*/
+
+#partie_droite{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.hotel_aside{
+  width: unset;
+  margin-bottom: 15px;
+}
+
+.text_aside {
+  font-size: 15px;
+}
+
+.droite_aside {
+  padding-right: 20px;
+}
+
+.text_aside span {
+  font-size: 16px;
+}
+
+/*--------PARTIE_GAUCHE-----------------------------*/
+
+#partie_gauche{
+  background-color: #ffffff;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#premiere_ligne{
+  margin-top: 10px;
+  flex-direction: column;
+  padding: 0;
+}
+
+#deuxieme_ligne{
+  margin-top: 2px;
+  flex-direction: column;
+  padding: 0;
+}
+
+.hotel{
+  margin: auto;  
+  margin-bottom: 15px;
+}
+
+.hotel img{
+  height: 115px;
+  width: 329px;
+}
+
+@media screen and (max-width: 374px)
+{
+  .hotel img{
+    height: 115px;
+    width: 313.5px;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .hotel img{
+    height: 115px;
+    width: 368px;
+  }
+}
+
+#partie_gauche > h1{
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+#afficherplus{
+  padding-left: 0;
+}
+
+/*----------BLOC_3-------------------------------------*/
+
+#bloc_03{
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#titre_bloc_03 h1{
+  width: 100%;
+}
+
+#activites{
+  flex-direction: column;
+}
+
+.section_element{
+  margin: auto;
+  margin-top: 15px;
+}
+
+.section_element img{
+  width: 336px;
+  height: 134px;
+}
+
+@media screen and (max-width: 374px)
+{
+  .section_element img{
+    height: 135px;
+    width: 313.5px;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .section_element img{
+    height: 135px;
+    width: 368px;
+  }
+
+}
+
+
+/*------FOOOTER-------------------------*/
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#fond_footer{
+  flex-direction: column;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 50%;
+}
+
+#fond_footer div:not(#apropos){
+  margin: 0;
+  margin-top: 30px;
+}
