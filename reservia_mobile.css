@@ -1,13 +1,7 @@
 
 /* HEADER----------------------------------------------*/
 
-@media screen and (min-width: 917px)
-{
-  body{
-    width: 100%;
-    margin: auto;
-  }
-}
+
 
 header{
   display: flex;
