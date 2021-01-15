@@ -564,6 +564,7 @@ a{
 footer { 
   width: 100%;
   margin: auto;
+  max-width: 1250px;
   margin-top: 30px;
   background-color: #f2f2f2;
   padding-top: 30px;
